@@ -326,22 +326,31 @@ body {
 	background-color: #3498db;
 	padding: 20px 10px;
 	z-index: 100;
+	width: 100%;
 }
 
 #navigation li {
 	padding: 0 10px;
+
 }
 
 #navigation li a {
+	font-size: 20px;
 	color: #fff;
 }
 
 .navbar-brand,
 .navbar-brand:hover {
 	color: #fff;
+	font-size: 30px;
 }
 
 .navbar-toggler-icon {
 	background: url(./img/icons/menu.png);
 	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
 }
