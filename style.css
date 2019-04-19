@@ -176,6 +176,19 @@ body {
 	background-color: #fff;
 }
 
+.resumeButton {
+	color: #2196F3;
+	padding: 15px 20px;
+	display: inline-block;
+	
+}
+
+/*.resumeButton:hover {
+	text-decoration: none;
+	color: #3498db;
+	background-color: #3498db;
+}
+*/
 .filter a {
 	color: #607D8B;
 	border:1px solid #607D8B;
