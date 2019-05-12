@@ -9,6 +9,7 @@ Light Grey: #f7f8f8;
 Bubbles:#BFBFBF;
 White: #ffffff;
 Black: #000000;
+Blue: #3498db;
 -------------------------------*/
 
 body { 
@@ -21,11 +22,15 @@ body {
 }
 .section h1, 
 .section h2, 
-.section h3, 
 .section h4 { 
 	font-family: "Lato", sans-serif; 
 	font-weight: 700; 
-	color: #d82c2e; 
+	color: #3498db; 
+}
+.section h3 {
+	font-family: "Lato", sans-serif; 
+	font-weight: 700; 
+	color: #fff; 
 }
 .section p { 
 	font-family: "Lato", sans-serif; 
@@ -45,7 +50,7 @@ body {
 .section .divider { 
 	width: 100px; 
 	height: 1px; 
-	background: #d82c2e; 
+	background: #3498db; 
 	margin: 0 auto; 
 }
 
@@ -77,8 +82,8 @@ section.colored p {
 .filter a:hover, 
 .btn:focus, 
 .filter a:focus { 
-	background-color: #d82c2e; 
-	border-color: #d82c2e; 
+	background-color: #3498db; 
+	border-color: #3498db; 
 	color: white; 
 }
 
@@ -105,7 +110,7 @@ section.colored p {
 .borderBtn:hover,  
 .borderBtn:focus, { 
 	background-color: white; 
-	color: #d82c2e; 
+	color: #3498db; 
 	text-decoration: none; 
 }
 
@@ -206,7 +211,7 @@ section .centered {
 [2. Navbar]
 -------------------------------------------------------------------*/
 .navbar-flat {
-	background: #d82c2e;
+	background: #3498db;
 	margin-bottom: 0px;
 	-webkit-border-radius: 0px; 
 	-moz-border-radius: 0px; 
@@ -228,15 +233,15 @@ section .centered {
 	float: none; 
 }
 .navbar-flat li a:hover { 
-	background: #c12728; 
+	background: #3498db; 
 	color: white; 
 }
 .navbar-flat li a:focus { 
-	background: #c12728; 
+	background: #3498db; 
 	color: white; 
 }
 .navbar-flat li.active a { 
-	background: #c12728; 
+	background: #3498db; 
 	color: white; 
 }
 .navbar-flat a { 
@@ -257,7 +262,7 @@ section .centered {
 [3. About]
 -------------------------------------------------------------------*/
 .hero { 
-	background: #d82c2e; 
+	background: #3498db; 
 	color: white; 
 }
 .hero .borderBtn,  { 
@@ -288,7 +293,7 @@ section .centered {
 	padding-top: 50px; 
 	padding-bottom: 50px; 
 	text-align: center; 
-	color: #d82c2e; 
+	color: #3498db; 
 	margin-left: -1px; 
 	-webkit-transition: all 0.3s ease-in, 1s; 
 	-moz-transition: all 0.3s ease-in, 1s; 
@@ -329,8 +334,8 @@ section .centered {
 
 .service:hover, 
 .service:focus { 
-	background-color: #d82c2e; 
-	border-color: #d82c2e; 
+	background-color: #3498db; 
+	border-color: #3498db; 
 	color: white; 
 }
 .service:hover h3, 
@@ -638,38 +643,25 @@ footer p { font-size: 12px; color: white; text-align: center; }
 footer ul { width: 100%; text-align: center; margin-top: 20px; }
 footer li { display: inline-block; margin: 0 4px; }
 footer li a { display: block; text-decoration: none; border-bottom: none; padding: 18px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition: all 0.3s ease-in, 1s; -moz-transition: all 0.3s ease-in, 1s; -o-transition: all 0.3s ease-in, 1s; -ms-transition: all 0.3s ease-in, 1s; transition: all 0.3s ease-in, 1s; }
-footer .facebook { background: url(../images/facebook.png) center no-repeat #444749; }
+footer .facebook { background: url(img/icons/facebook.png) center no-repeat #fff; }
 footer .facebook:hover { background-color: #4265b9; }
-footer .twitter { background: url(../images/twitter.png) center no-repeat #444749; }
-footer .twitter:hover { background-color: #9ae4e8; }
-footer .google { background: url(../images/google.png) center no-repeat #444749; }
-footer .google:hover { background-color: #d62408; }
-footer .youtube { background: url(../images/youtube.png) center no-repeat #444749; }
-footer .youtube:hover { background-color: #df3333; }
-footer .flickr { background: url(../images/flickr.png) center no-repeat #444749; }
-footer .flickr:hover { background-color: #E2408F; }
-footer .dribbble { background: url(../images/dribbble.png) center no-repeat #444749; }
-footer .dribbble:hover { background-color: #e94c89; }
-footer .behance { background: url(../images/behance.png) center no-repeat #444749; }
-footer .behance:hover { background-color: #3fbff0; }
-footer .instagram { background: url(../images/instagram.png) center no-repeat #444749; }
+footer .twitter { background: url(img/icons/twitter.png) center no-repeat #fff; }
+footer .twitter:hover { background-color: #fff; }
+footer .github { background: url(img/icons/github.png) center no-repeat #fff; }
+footer .github:hover { background-color: #0073b2; }
+footer .instagram { background: url(img/icons/instagram.png) center no-repeat #444749; }
 footer .instagram:hover { background-color: #956751; }
-footer .vimeo { background: url(../images/vimeo.png) center no-repeat #444749; }
-footer .vimeo:hover { background-color: #87d2e0; }
-footer .tumblr { background: url(../images/tumblr.png) center no-repeat #444749; }
-footer .tumblr:hover { background-color: #4d7Da1; }
-footer .linkedin { background: url(../images/linkedin.png) center no-repeat #444749; }
+footer .linkedin { background: url(img/icons/linkedin.png) center no-repeat #444749; }
 footer .linkedin:hover { background-color: #0073b2; }
-
 
 
 img { max-width: 100%; height: auto; }
 
 .clear { clear: both; }
 
-::selection { background-color: #d82c2e; color: white; }
+::selection { background-color: #3498db; color: white; }
 
-::-moz-selection { background-color: #d82c2e; color: white; }
+::-moz-selection { background-color: #3498db; color: white; }
 
 input, textarea { -webkit-appearance: none; }
 
