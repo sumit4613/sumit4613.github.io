@@ -49,12 +49,13 @@ Cheers! At this point, Python 3.8 is installed on your Ubuntu system, and you ca
 - Installing python3.8 via deadsnakes has an issue with `distutils` module.
 - While running `pip install` you might get an error like this:
 
-    ```console
-    from distutils.cmd import Command as DistutilsCommand
-    ModuleNotFoundError: No module named 'distutils.cmd'
-    ```
+  ```console
+  from distutils.cmd import Command as DistutilsCommand
+  ModuleNotFoundError: No module named 'distutils.cmd'
+  ```
+
 - To fix this, you can install `python3.8-distutils` package:
 
-    ```shell
-    sudo apt-get -y install python3.8-distutils
-    ```
+  ```shell
+  sudo apt-get -y install python3.8-distutils
+  ```

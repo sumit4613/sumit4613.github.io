@@ -1,4 +1,4 @@
 ---
-date: {{ .Date }}
+date: { { .Date } }
 draft: false
 ---

@@ -9,7 +9,6 @@ draft: false
 I'm a software engineer from India.  
 Exploring the world of software development, and trying to figure out life.
 
-
 Things which tells that I'm a software engineer:
 
 - Mentor beginner developers on how to contribute to open source projects in PyCon India. Participated in 2020 and 2021.

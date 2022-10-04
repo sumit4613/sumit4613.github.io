@@ -6,8 +6,7 @@ toc: false
 draft: false
 ---
 
-*Commands which I use to install and manage my own PostgreSQL server.*
-
+_Commands which I use to install and manage my own PostgreSQL server._
 
 Install the dependencies to use Postgres with Python/Django
 
@@ -28,6 +27,7 @@ sudo -u postgres createuser --interactive
 ```
 
 After running the above command, you will be prompted something like this:
+
 ```console
 Enter name of role to add: new-user
 Shall the new role be a superuser? (y/n) n
@@ -66,21 +66,22 @@ psql -U db_user -d db_name < path/to/backup.sql
 ```
 
 ## Notes:
+
 - If you are using `psql` command, you might get an error like this:
-    ```console
-    psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  
-    Peer authentication failed for user "new-user"
-    ```
+  ```console
+  psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:
+  Peer authentication failed for user "new-user"
+  ```
 - To fix this, you can edit the `pg_hba.conf` file:
-    ```shell
-    sudo nano /etc/postgresql/13/main/pg_hba.conf
-    ```
+  ```shell
+  sudo nano /etc/postgresql/13/main/pg_hba.conf
+  ```
 - Find `# "local" is for Unix domain socket connections only` and add a new line below it:
-    ```shell
-    local   all             new-user                              password
-    ```
+  ```shell
+  local   all             new-user                              password
+  ```
 - Restart the postgres service:
-    ```shell
-    sudo systemctl restart postgresql
-    ```
+  ```shell
+  sudo systemctl restart postgresql
+  ```
 - Now you can use `psql` command without any issues.

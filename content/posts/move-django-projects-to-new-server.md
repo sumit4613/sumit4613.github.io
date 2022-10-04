@@ -22,7 +22,7 @@ sudo apt-get -y upgrade
 
 ### PostgreSQL
 
-*Note: I install postgres inside the server, you can use RDS or some external service as well.*
+_Note: I install postgres inside the server, you can use RDS or some external service as well._
 
 [Install and Manage your own Postgres Server.]({{< ref "/posts/install-and-manage-postgres" >}})
 
@@ -56,7 +56,7 @@ sudo systemctl start supervisor
 
 ### Install Virtual Environment
 
-*I use simple requirements.txt file to install and manage the dependencies. You can use pipenv or poetry as well.*
+_I use simple requirements.txt file to install and manage the dependencies. You can use pipenv or poetry as well._
 
 ```shell
 sudo apt-get -y install python3-virtualenv
@@ -64,7 +64,7 @@ sudo apt-get -y install python3-virtualenv
 
 ### Install Python
 
-*Note: I'll be installing and using python3.8 due to some old dependencies.*
+_Note: I'll be installing and using python3.8 due to some old dependencies._
 
 [Install Python]({{< ref "/posts/install-python-in-ubuntu" >}})
 
@@ -141,27 +141,30 @@ python manage.py runserver
 Deploying Gunicorn</a>**
 
 - First install `Gunicorn` if not already installed.
-    ```shell
-    pip install gunicorn  # make sure you're in the virtual environment
-    ```
+  ```shell
+  pip install gunicorn  # make sure you're in the virtual environment
+  ```
 
 **Note: Go outside the project directory and run the following commands.**
 
 - Create a directory for storing logs for debugging.
-    ```shell
-    mkdir logs
-    mkdir logs/hisabkitab  # to store logs for hisabkitab
-    ```
+
+  ```shell
+  mkdir logs
+  mkdir logs/hisabkitab  # to store logs for hisabkitab
+  ```
 
 - Create a directory for storing the socket files.
-    ```shell
-    mkdir sockets
-    ```  
+
+  ```shell
+  mkdir sockets
+  ```
 
 - I usually create a directory named `run_scripts` that contains all the gunicorn scripts to run the projects.
-    ```shell
-    mkdir run_scripts
-    ```
+
+  ```shell
+  mkdir run_scripts
+  ```
 
 - Create a file named `<product_name>_gunicorn.sh` inside the `run_scripts` directory. (Not necessary to create inside
   the `run_scripts` directory, you can create anywhere you want.)
@@ -207,17 +210,17 @@ Deploying Gunicorn</a>**
   ```shell
   sudo supervisorctl restart hisabkitab_supervisor  # use your own program name
   ```
-  
+
 ## Configure Nginx
 
-- Add a new configuration file named `hisabkitab.conf` inside /etc/nginx/sites-available/:  
+- Add a new configuration file named `hisabkitab.conf` inside /etc/nginx/sites-available/:
   ```shell
   sudo nano /etc/nginx/sites-available/hisabkitab.conf
   ```
 - Copy the content from this <a href="https://gist.github.com/sumit4613/341ad0a0294039f62093a3d7b06c0c99" target="_blank">Nginx
   Config</a> and
   paste
-  it in the file you just created. Make sure to update the values as per your need.  
+  it in the file you just created. Make sure to update the values as per your need.
 - Create a symbolic link to the sites-enabled directory to enable the site.
   ```shell
   sudo ln -s /etc/nginx/sites-available/hisabkitab.conf /etc/nginx/sites-enabled
@@ -230,14 +233,13 @@ Deploying Gunicorn</a>**
   ```shell
   sudo service nginx restart
   ```
-  
+
 ## Configure [Certbot](https://certbot.eff.org/) (Let's Encrypt)
 
 - Install Certbot
   ```shell
   sudo apt install certbot python3-certbot-nginx
   ```
-  
 - Run the following command to get the certificate.
   ```shell
   sudo certbot --nginx

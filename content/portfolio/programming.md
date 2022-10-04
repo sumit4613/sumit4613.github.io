@@ -10,7 +10,6 @@ highlightSubtitle: true
 weight: 2
 ---
 
-
 I am experienced with Python, and it's related tech stack.(Django, Flask, FastAPI, etc.).  
 I'm also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other systems.
 
