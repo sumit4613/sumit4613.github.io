@@ -10,6 +10,6 @@ highlightSubtitle: true
 weight: 1
 ---
 
-Did my engineering here.  
+Did my engineering here.
 Not much to say about it, because I did my major in Electronics and Communication Engineering,
 which was not that much interesting for me.

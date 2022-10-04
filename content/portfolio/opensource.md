@@ -16,6 +16,7 @@ lot of effective community building, communication, and documentation.
 I've also learned a lot about programming, and I've been able to apply that knowledge to my own projects.
 
 Major contributions:
+
 - [drf-user](https://github.com/101loop/drf-user)
 - Several Projects at [101 Loop](https://github.com/101loop)
 
