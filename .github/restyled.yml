@@ -7,6 +7,8 @@ exclude:
   - "**/node_modules/**/*"
   - "**/vendor/**/*"
   - ".github/workflows/**/*" # https://github.com/restyled-io/restyler/issues/73
+  - "assets/**/*"
+  - ".json"
 
 changed_paths:
   maximum: 1000
@@ -44,4 +46,6 @@ ignore_labels:
 restylers_version: stable
 
 restylers:
+  - prettier:
+      enabled: false
   - "*"

@@ -13,6 +13,6 @@ module.exports = {
                 }
             })]
             : [],
-        require("cssnano")({ preset: 'default' }),
+        require("cssnano")({preset: 'default'}),
     ]
 };
