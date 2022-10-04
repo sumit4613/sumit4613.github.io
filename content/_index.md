@@ -6,7 +6,7 @@ url: /
 draft: false
 ---
 
-I'm a software engineer from India.  
+I'm a software engineer from India.
 Exploring the world of software development, and trying to figure out life.
 
 Things which tells that I'm a software engineer:
