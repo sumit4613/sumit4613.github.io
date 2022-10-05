@@ -1,4 +1,1 @@
-# My portfolio
-
-### [sumit4613.github.io](https://sumit4613.github.io)
-
+## Checkout My portfolio at [sumit4613.github.io](https://sumit4613.github.io)
