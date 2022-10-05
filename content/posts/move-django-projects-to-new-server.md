@@ -1,5 +1,5 @@
 ---
-title: "Moving Django projects to a new server"
+title: "Moving Django Projects to a new server"
 tags: ["django", "ec2", "nginx", "postgres"]
 date: 2022-10-02
 toc: false
