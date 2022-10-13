@@ -2,6 +2,7 @@ baseURL = "https://sumit4613.github.io"
 languageCode = "en-us"
 title = "Sumit Singh"
 pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [markup.goldmark.renderer]
 unsafe = true
