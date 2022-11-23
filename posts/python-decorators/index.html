@@ -1,0 +1,111 @@
+<!doctype html><html lang=en><head><title>Let's talk about decorators in Python | Sumit Singh</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Let&rsquo;s learn a little about decorators in Python. We will learn about what are decorators, how to use them, and how to create them.
+What are decorators?&mldr;"><meta property="og:description" content="Let&rsquo;s learn a little about decorators in Python. We will learn about what are decorators, how to use them, and how to create them.
+What are decorators?&mldr;"><meta property="og:site_name" content="Sumit Singh"><meta property="og:type" content="website"><meta property="og:title" content="Let's talk about decorators in Python | Sumit Singh"><meta property="og:url" content="https://sumit4613.github.io/posts/python-decorators/"><link rel=canonical href=https://sumit4613.github.iohttps://sumit4613.github.io/posts/python-decorators/><link rel=icon type=image/png href=https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg><link rel=stylesheet href="https://sumit4613.github.io/styles/base.min.1ab81b1e10fbfdc41e4a7d27d49dcf6fdcfab63874ff74a73ce0c41e2cf8424f.css"><script async defer src=https://sumit4613.github.io/scripts/base.min.5a8f83f82ff29859774a645a724a9c2e1d82026d1ca8650232300636aa206a82.js></script></head><body class=bg-neutral-000><section class="max-w-6xl mx-auto p-4 relative min-h-screen"><div class="md:flex md:justify-center md:mt-48"><aside><nav class="flex justify-between w-full items-center md:block mb-12 md:mb-0" aria-label=navigation><a class="flex justify-end md:w-full md:mb-12" href=/><img class="rounded-full h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Sumit; links to home." src=https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg></a><div class="text-right md:-mt-1 md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100"><div class=md:text-right><ul class="-ml-2 md:ml-0 flex md:block"><li><div class="portal font-semibold ~critical text-critical-500"><a href=/portfolio/><span>Portfolio</span></a></div><br></li><li><div class="portal font-semibold ~warning active"><a href=/posts/><span>Posts</span></a></div><br></li></ul></div></div></nav></aside><div class="md:min-w-xl md:max-w-xl md:mx-16"><section><div><h3 class="inline heading font-bold md:text-4xl">Let's talk about decorators in Python</h3><h3 class="inline heading font-bold md:text-4xl opacity-50"></h3></div><div class=mt-4><span class="chip ~neutral !low -ml-2 mb-2">Nov 23, 2022</span>
+<a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href=https://sumit4613.github.io/tags/python/ aria-label="tagged under python">python</a></div></section><hr class="sep h-8"><main><section class=content><p>Let&rsquo;s learn a little about decorators in Python. We will learn about what are decorators, how to use them, and how
+to create them.</p><h2 id=what-are-decorators>What are decorators?</h2><p>Decorators are functions which take another function as an argument and returns another function. They are used to
+extend the behavior of the latter function without explicitly modifying it.</p><h2 id=how-to-use-decorators>How to use decorators?</h2><p>Let&rsquo;s see how to use decorators in Python. We will use the <code>@</code> symbol to use decorators. Let&rsquo;s see an example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># let&#39;s define a simple function which will be our decorator</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>decorator_function</span><span class=p>(</span><span class=n>original_function</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>wrapper_function</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;wrapper executed this before </span><span class=si>{</span><span class=n>original_function</span><span class=o>.</span><span class=vm>__name__</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>original_function</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>wrapper_function</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># let&#39;s create a simple function</span>
+</span></span><span class=line><span class=cl><span class=c1># and use the decorator on it</span>
+</span></span><span class=line><span class=cl><span class=nd>@decorator_function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>display</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;display function ran&#34;</span><span class=p>)</span>
+</span></span></code></pre></div><h2 id=how-to-create-decorators>How to create decorators?</h2><p>Let&rsquo;s see how to create decorators in Python. Let&rsquo;s see an example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># Define a decorator function which explicitly checks for TypeError and prints a message</span>
+</span></span><span class=line><span class=cl><span class=c1># This will only handle TypeError for the decorated function, not for other exceptions</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>decorator_function</span><span class=p>(</span><span class=n>original_function</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>wrapper_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=n>original_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>except</span> <span class=ne>TypeError</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;TypeError occurred in </span><span class=si>{</span><span class=n>original_function</span><span class=o>.</span><span class=vm>__name__</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;You are passing the wrong arguments&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>wrapper_function</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s create a simple function</span>
+</span></span><span class=line><span class=cl><span class=nd>@decorator_function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>a</span> <span class=o>+</span> <span class=n>b</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s call the function</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=p>(</span><span class=mi>1</span><span class=p>,</span> <span class=mi>2</span><span class=p>))</span>  <span class=c1># prints 3</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=p>(</span><span class=mi>1</span><span class=p>,</span> <span class=s2>&#34;2&#34;</span><span class=p>))</span>  <span class=c1># prints &#34;You are passing the wrong arguments&#34;</span>
+</span></span></code></pre></div><p>But there&rsquo;s one problem with the above decorator. <code>addition</code> function lost its identity after being decorated. Let&rsquo;s
+see how to fix this problem.</p><p>Let&rsquo;s check the identity of the <code>addition</code> function before and after being decorated:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># Let&#39;s check the identity of the function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>a</span> <span class=o>+</span> <span class=n>b</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=p>)</span>  <span class=c1># prints &lt;function addition at 0x7f9b1c0b0d40&gt;</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=o>.</span><span class=vm>__name__</span><span class=p>)</span>  <span class=c1># prints &#34;addition&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Create a decorator function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>decorator_function</span><span class=p>(</span><span class=n>original_function</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>wrapper_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=n>original_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>except</span> <span class=ne>TypeError</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;TypeError occurred in </span><span class=si>{</span><span class=n>original_function</span><span class=o>.</span><span class=vm>__name__</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;You are passing the wrong arguments&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>wrapper_function</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s decorate the function</span>
+</span></span><span class=line><span class=cl><span class=nd>@decorator_function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>a</span> <span class=o>+</span> <span class=n>b</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=p>)</span>  <span class=c1># prints &lt;function decorator_function.&lt;locals&gt;.wrapper_function at 0x7f9b1c0b0d40&gt;</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=o>.</span><span class=vm>__name__</span><span class=p>)</span>  <span class=c1># prints &#34;wrapper_function&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># As we can see, the identity, and metadata of the function has changed. Let&#39;s see how to fix this problem.</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s fix the identity of the function</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s import functools</span>
+</span></span><span class=line><span class=cl><span class=c1># https://docs.python.org/3/library/functools.html#functools.wraps</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>functools</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s create a decorator function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>decorator_function</span><span class=p>(</span><span class=n>original_function</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=c1># Notice the use of functools.wraps</span>
+</span></span><span class=line><span class=cl>    <span class=nd>@functools</span><span class=o>.</span><span class=n>wraps</span><span class=p>(</span><span class=n>original_function</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>wrapper_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>try</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=k>return</span> <span class=n>original_function</span><span class=p>(</span><span class=o>*</span><span class=n>args</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>except</span> <span class=ne>TypeError</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;TypeError occurred in </span><span class=si>{</span><span class=n>original_function</span><span class=o>.</span><span class=vm>__name__</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>            <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;You are passing the wrong arguments&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>wrapper_function</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s decorate the function</span>
+</span></span><span class=line><span class=cl><span class=nd>@decorator_function</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>a</span> <span class=o>+</span> <span class=n>b</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Let&#39;s check the identity of the function</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=p>)</span>  <span class=c1># prints &lt;function addition at 0x7f9b1c0b0d40&gt;</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>addition</span><span class=o>.</span><span class=vm>__name__</span><span class=p>)</span>  <span class=c1># prints &#34;addition&#34;</span>
+</span></span><span class=line><span class=cl><span class=c1># As we can see, the identity, and metadata of the function has been restored.</span>
+</span></span></code></pre></div><h2 id=conclusion>Conclusion</h2><p>That&rsquo;s it. I hope this post helped you. If you have any questions, feel free to reach out. I&rsquo;ll try to answer them as
+soon as possible. If you find any mistakes in the post, please create an issue or raise pull request with the fix.</p></section></main><hr class="sep h-16"><footer><footer class="family-secondary support content"><p class=pb-2>Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a href=https://twitter.com/sumitsingh4613>Twitter</a>, subscribe via <a href=/index.xml>Atom/RSS</a>.</p><p class=pb-8>&copy; Sumit Singh 2022.
+Content is licensed <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC BY-SA 4.0</a>, a Free Culture
+License.
+The <a href=https://github.com/sumit4613/sumit4613.github.io>source code</a> is available under <a href=https://github.com/sumit4613/sumit4613.github.io/blob/master/LICENSE>GPLv3</a>.
+<i>If you see any issue or any typo please create an <a href=https://github.com/sumit4613/sumit4613.github.io/issues>issue here.</a></i><br><br><strong>This site's design is heavily inspired by <a href=https://miles.land/>Miles Land</a>. Due to its
+minimalistic design, it's a great starting point for a personal website.</strong></p></footer></footer></div><aside class="hidden pl-8 self-start sticky-top lg:block text-xs"></aside></div></section></body></html>
