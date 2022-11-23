@@ -20,7 +20,8 @@ For more details check [portfolio](/portfolio/) or [posts](/posts/).
 
 ### Currently
 
-I'm currently working at [Carta Healthcare](https://www.carta.healthcare/) as a backend engineer.
+I'm currently working at Vitartha Consultancy Pvt Ltd as a software engineer. Previously
+at [Carta Healthcare](https://www.carta.healthcare/).
 I also maintain few open source projects, you can find them at [GitHub](https://github.com/101Loop).
 
 ### Contact
