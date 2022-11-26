@@ -27,6 +27,7 @@ I also maintain few open source projects, you can find them at [GitHub](https://
 ### Contact
 
 - GitHub, my handle is [sumit4613](https://github.com/sumit4613).
+- Mastodon, checkout [@sumit4613](https://fosstodon.org/@sumit4613)
 - Twitter, look for [@sumitsingh4613](https://twitter.com/sumitsingh4613).
 - LinkedIn, my profile is [here](https://www.linkedin.com/in/sumit4613/).
 - Old school eh? Email me at [sumit.singh4613@gmail.com](mailto:sumit.singh4613@gmail.com)
