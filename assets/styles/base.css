@@ -233,6 +233,10 @@ code, kbd, pre {
     overflow-y: hidden;
 }
 
+.language-python {
+    font-size: larger;
+}
+
 /* Syntax highlighting */
 .highlight .hll { background-color: var(--color-warning-100) }
 .highlight .c { color: var(--color-neutral-600); font-style: italic } /* Comment */
