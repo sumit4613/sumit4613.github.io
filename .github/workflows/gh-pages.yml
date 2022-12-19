@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           npm ci
-          hugo --minify
+          hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
