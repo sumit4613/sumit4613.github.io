@@ -1,181 +1,391 @@
-<!doctype html><html lang=en><head><title>Oops! Python | Sumit Singh</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So&mldr;"><meta property="og:description" content="I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So&mldr;"><meta property="og:site_name" content="Sumit Singh"><meta property="og:type" content="website"><meta property="og:title" content="Oops! Python | Sumit Singh"><meta property="og:url" content="https://sumit4613.github.io/posts/oops-python/"><link rel=canonical href=https://sumit4613.github.io/posts/oops-python/><link rel=me href=https://fosstodon.org/@sumit4613><link rel=icon type=image/png href=https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg><link rel=stylesheet href="https://sumit4613.github.io/styles/base.min.1ab81b1e10fbfdc41e4a7d27d49dcf6fdcfab63874ff74a73ce0c41e2cf8424f.css"><script async defer src=https://sumit4613.github.io/scripts/base.min.5a8f83f82ff29859774a645a724a9c2e1d82026d1ca8650232300636aa206a82.js></script></head><body class=bg-neutral-000><section class="max-w-6xl mx-auto p-4 relative min-h-screen"><div class="md:flex md:justify-center md:mt-48"><aside><nav class="flex justify-between w-full items-center md:block mb-12 md:mb-0" aria-label=navigation><a class="flex justify-end md:w-full md:mb-12" href=/><img class="rounded-full h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Sumit; links to home." src=https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg></a><div class="text-right md:-mt-1 md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100"><div class=md:text-right><ul class="-ml-2 md:ml-0 flex md:block"><li><div class="portal font-semibold ~critical text-critical-500"><a href=/portfolio/><span>Portfolio</span></a></div><br></li><li><div class="portal font-semibold ~warning active"><a href=/posts/><span>Posts</span></a></div><br></li></ul></div></div></nav></aside><div class="md:min-w-xl md:max-w-xl md:mx-16"><section><div><h3 class="inline heading font-bold md:text-4xl">Oops! Python</h3><h3 class="inline heading font-bold md:text-4xl opacity-50"></h3></div><div class=mt-4><span class="chip ~neutral !low -ml-2 mb-2">Oct 12, 2022</span>
-<a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href=https://sumit4613.github.io/tags/python/ aria-label="tagged under python">python</a>
-<a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href=https://sumit4613.github.io/tags/oops/ aria-label="tagged under oops">oops</a></div></section><hr class="sep h-8"><main><section class=content><p>I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I
-thought why not write a post about it. So here it is.</p><h2 id=what-is-object-oriented-programming>What is Object-Oriented Programming?</h2><ul><li>Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and
-program applications.</li><li>OOP is a way of programming that is based on the concept of &ldquo;objects&rdquo;, which can contain data, in the form of fields,
-often known as attributes; and code, in the form of procedures, often known as methods.</li><li>A feature of object is that an object&rsquo;s procedures can access and often modify the data fields of the object with
-which they are associated (objects have a notion of &ldquo;this&rdquo; or &ldquo;self&rdquo;).</li></ul><h2 id=what-is-an-object>What is an Object?</h2><ul><li>An object is a software bundle of related state and behavior.</li><li>Objects are the things you think about first in designing a program, and they are also the units of code that are
-eventually derived from the process.</li><li>An object is an instance of a class.</li></ul><h2 id=what-is-a-class>What is a Class?</h2><ul><li>A class is a blueprint or prototype that defines a set of attributes that will characterize any object that is
-instantiated from the class.</li><li>A class can be defined as a collection of objects. It is a logical entity that has some specific attributes and
-methods (functions) defined within it.</li><li>A class is like an object constructor, or a &ldquo;blueprint&rdquo; for creating objects.</li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=c1># constructor of the class Person</span>
-</span></span><span class=line><span class=cl>        <span class=c1># self is the reference to the current instance of the class, </span>
-</span></span><span class=line><span class=cl>        <span class=c1># and is used to access variables that belongs to the class.</span>
-</span></span><span class=line><span class=cl>        <span class=c1># It does not have to be named self, we can name it whatever we like,</span>
-</span></span><span class=line><span class=cl>        <span class=c1># but usually it is named self.</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name_and_age</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=c1># self.name is the name of the person</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2> and I am </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>age</span><span class=si>}</span><span class=s2> years old.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>p1</span> <span class=o>=</span> <span class=n>Person</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span><span class=o>.</span><span class=n>print_name_and_age</span><span class=p>()</span>  <span class=c1># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
-</span></span></code></pre></div><h2 id=what-is-a-method>What is a Method?</h2><ul><li>A method is a function that is associated with an object.</li><li>A method in python is somewhat similar to a function, except it is associated with object/classes.</li><li>Methods in python are very similar to functions except for two major differences:<ul><li>The method is implicitly used for an object for which it is called.</li><li>The method is accessible to data that is contained within the class.</li></ul></li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name_and_age</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2> and I am </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>age</span><span class=si>}</span><span class=s2> years old.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>p1</span> <span class=o>=</span> <span class=n>Person</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span><span class=o>.</span><span class=n>print_name_and_age</span><span class=p>()</span>  <span class=c1># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
-</span></span></code></pre></div><h2 id=what-is-inheritance>What is Inheritance?</h2><ul><li>Inheritance is a way to form new classes using classes that have already been defined.</li><li>The newly formed classes are called derived classes, the classes that we derive from are called base classes.</li><li>Important benefits of inheritance are code reuse and reduction of complexity of a program.</li><li>The derived classes (descendants) override or extend the functionality of base classes (ancestors).</li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name_and_age</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2> and I am </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>age</span><span class=si>}</span><span class=s2> years old.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Student</span><span class=p>(</span><span class=n>Person</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>,</span> <span class=n>student_id</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=c1># call the __init__ method of the parent class</span>
-</span></span><span class=line><span class=cl>        <span class=nb>super</span><span class=p>()</span><span class=o>.</span><span class=fm>__init__</span><span class=p>(</span><span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>student_id</span> <span class=o>=</span> <span class=n>student_id</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_student_id</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My student id is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>student_id</span><span class=si>}</span><span class=s2>.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># Here we first Create a Person object, and then we create a Student object that inherits the Person class.</span>
-</span></span><span class=line><span class=cl><span class=c1># We then use the Student object to call the print_name_and_age() method, which is inherited from the Person class.</span>
-</span></span><span class=line><span class=cl><span class=n>s1</span> <span class=o>=</span> <span class=n>Student</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>,</span> <span class=mi>12345</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>s1</span><span class=o>.</span><span class=n>print_name_and_age</span><span class=p>()</span>  <span class=c1># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
-</span></span><span class=line><span class=cl><span class=n>s1</span><span class=o>.</span><span class=n>print_student_id</span><span class=p>()</span>  <span class=c1># prints &#34;My student id is 12345.&#34;</span>
-</span></span></code></pre></div><h2 id=what-is-encapsulation>What is Encapsulation?</h2><ul><li>Encapsulation is the process of wrapping code and data together into a single unit.</li><li>It is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties'
-direct access to them.</li><li>It is one of the four fundamental OOP concepts.</li><li>The idea of encapsulation is to make sure that &ldquo;sensitive&rdquo; data is hidden from users.</li><li>To achieve this, you must:<ul><li>declare class variables/attributes as private</li><li>provide public get and set methods to access and update the value of a private variable</li></ul></li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>get_name</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>__name</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>get_age</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>__age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>set_name</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>set_age</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>p1</span> <span class=o>=</span> <span class=n>Person</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>get_name</span><span class=p>())</span>  <span class=c1># prints &#34;John Doe&#34;</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>get_age</span><span class=p>())</span>  <span class=c1># prints &#34;22&#34;</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span><span class=o>.</span><span class=n>set_name</span><span class=p>(</span><span class=s2>&#34;Peter Parker&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span><span class=o>.</span><span class=n>set_age</span><span class=p>(</span><span class=mi>23</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>get_name</span><span class=p>())</span>  <span class=c1># prints &#34;Peter Parker&#34;</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>get_age</span><span class=p>())</span>  <span class=c1># prints &#34;23&#34;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># We can also access the private variables directly, but it is not recommended.</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>_Person__name</span><span class=p>)</span>  <span class=c1># prints &#34;Peter Parker&#34;</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>_Person__age</span><span class=p>)</span>  <span class=c1># prints &#34;23&#34;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># When we access the private variables directly, we get an error.</span>
-</span></span><span class=line><span class=cl><span class=c1># This is because Python mangles the name of private variables to avoid name clashes.</span>
-</span></span><span class=line><span class=cl><span class=c1># The mangled name is of the form _&lt;class-name&gt;__&lt;variable-name&gt;.</span>
-</span></span><span class=line><span class=cl><span class=c1># So, the mangled name of __name is _Person__name.</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>p1</span><span class=o>.</span><span class=n>__name</span><span class=p>)</span>  <span class=c1># AttributeError: &#39;Person&#39; object has no attribute &#39;__name&#39;</span>
-</span></span></code></pre></div><h2 id=what-is-polymorphism>What is Polymorphism?</h2><ul><li>Polymorphism is the ability to take on many forms.</li><li>The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class
-object.</li><li>Polymorphism is the ability to redefine methods for derived classes.</li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>name</span> <span class=o>=</span> <span class=n>name</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>age</span> <span class=o>=</span> <span class=n>age</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name_and_age</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2> and I am </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>age</span><span class=si>}</span><span class=s2> years old.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2>.&#34;</span><span class=p>)</span>  <span class=c1># this method is overridden in the Student class</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Student</span><span class=p>(</span><span class=n>Person</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>,</span> <span class=n>student_id</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>super</span><span class=p>()</span><span class=o>.</span><span class=fm>__init__</span><span class=p>(</span><span class=n>name</span><span class=p>,</span> <span class=n>age</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>student_id</span> <span class=o>=</span> <span class=n>student_id</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_student_id</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My student id is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>student_id</span><span class=si>}</span><span class=s2>.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>print_name</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;My name is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>name</span><span class=si>}</span><span class=s2> and my student id is </span><span class=si>{</span><span class=bp>self</span><span class=o>.</span><span class=n>student_id</span><span class=si>}</span><span class=s2>.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># Here we first Create a Person object, and then we create a Student object that inherits the Person class.</span>
-</span></span><span class=line><span class=cl><span class=c1># We then use the Person object to call the print_name() method, which is overridden in the Student class.</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span> <span class=o>=</span> <span class=n>Person</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>p1</span><span class=o>.</span><span class=n>print_name</span><span class=p>()</span>  <span class=c1># prints &#34;My name is John Doe.&#34;</span>
-</span></span><span class=line><span class=cl><span class=n>s1</span> <span class=o>=</span> <span class=n>Student</span><span class=p>(</span><span class=s2>&#34;John Doe&#34;</span><span class=p>,</span> <span class=mi>22</span><span class=p>,</span> <span class=mi>12345</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>s1</span><span class=o>.</span><span class=n>print_name</span><span class=p>()</span>  <span class=c1># prints &#34;My name is John Doe and my student id is 12345.&#34;</span>
-</span></span></code></pre></div><h2 id=what-is-abstraction>What is Abstraction?</h2><ul><li>Abstraction is the process of hiding the implementation details from the user, only the functionality will be provided
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+<title>Oops! Python | Sumit Singh</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So&hellip;" />
+<meta property="og:description" content="I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So&hellip;" />
+<meta property="og:site_name" content="Sumit Singh" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Oops! Python | Sumit Singh" />
+<meta property="og:url" content="https://sumit4613.github.io/posts/oops-python/" />
+<link rel="canonical" href="https://sumit4613.github.io/posts/oops-python/" />
+<link rel="me" href="https://fosstodon.org/@sumit4613" />
+
+
+<link rel='icon' type='image/png' href='https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg' />
+
+<link rel="stylesheet" href="https://sumit4613.github.io/styles/base.min.7a54543f62c87dca91739b5348c7e710a0b75a872743e8dec760805b465f2f00.css" />
+
+<script async defer src="https://sumit4613.github.io/scripts/base.min.5a8f83f82ff29859774a645a724a9c2e1d82026d1ca8650232300636aa206a82.js"></script>
+
+
+  </head>
+  
+  <body class="bg-neutral-000">
+    <section class="max-w-6xl mx-auto p-4 relative min-h-screen">
+      <div class="md:flex md:justify-center md:mt-48">
+        <aside>
+          
+<nav class="flex justify-between w-full items-center md:block mb-12 md:mb-0" aria-label="navigation">
+  <a class="flex justify-end md:w-full md:mb-12" href="/">
+    
+    <img class="rounded-full h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Sumit; links to home." src="https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg" />
+  </a>
+  <div class="text-right md:-mt-1 md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100">
+    <div class="md:text-right">
+      <ul class="-ml-2 md:ml-0 flex md:block">
+        
+        <li>
+          <div class="portal font-semibold ~critical  text-critical-500 ">
+            <a href="/portfolio/">
+              
+              <span>Portfolio</span>
+              
+            </a>
+          </div>
+          <br>
+        </li>
+        
+        <li>
+          <div class="portal font-semibold ~warning  active ">
+            <a href="/posts/">
+              
+              <span>Posts</span>
+              
+            </a>
+          </div>
+          <br>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        </aside>
+        <div class="md:min-w-xl md:max-w-xl md:mx-16">
+          
+          
+<section>
+    <div>
+        
+            
+            <h3 class="inline heading font-bold md:text-4xl">
+                Oops! Python
+                
+            </h3>
+            <h3 class="inline heading font-bold md:text-4xl opacity-50">
+                
+            </h3>
+            
+    </div>
+    <div class="mt-4">
+        
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            Oct 12, 2022
+        </span>
+        
+        
+        
+        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="https://sumit4613.github.io/tags/python/" aria-label="tagged under python">python</a>
+        
+        
+        
+        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="https://sumit4613.github.io/tags/oops/" aria-label="tagged under oops">oops</a>
+        
+        
+    </div>
+</section>
+
+
+          <hr class="sep h-8">
+          
+<main>
+  <section class="content">
+    <p>I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I
+thought why not write a post about it. So here it is.</p>
+<h2 id="what-is-object-oriented-programming">What is Object-Oriented Programming?</h2>
+<ul>
+<li>Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and
+program applications.</li>
+<li>OOP is a way of programming that is based on the concept of &ldquo;objects&rdquo;, which can contain data, in the form of fields,
+often known as attributes; and code, in the form of procedures, often known as methods.</li>
+<li>A feature of object is that an object&rsquo;s procedures can access and often modify the data fields of the object with
+which they are associated (objects have a notion of &ldquo;this&rdquo; or &ldquo;self&rdquo;).</li>
+</ul>
+<h2 id="what-is-an-object">What is an Object?</h2>
+<ul>
+<li>An object is a software bundle of related state and behavior.</li>
+<li>Objects are the things you think about first in designing a program, and they are also the units of code that are
+eventually derived from the process.</li>
+<li>An object is an instance of a class.</li>
+</ul>
+<h2 id="what-is-a-class">What is a Class?</h2>
+<ul>
+<li>A class is a blueprint or prototype that defines a set of attributes that will characterize any object that is
+instantiated from the class.</li>
+<li>A class can be defined as a collection of objects. It is a logical entity that has some specific attributes and
+methods (functions) defined within it.</li>
+<li>A class is like an object constructor, or a &ldquo;blueprint&rdquo; for creating objects.</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># constructor of the class Person</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># self is the reference to the current instance of the class, </span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># and is used to access variables that belongs to the class.</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># It does not have to be named self, we can name it whatever we like,</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># but usually it is named self.</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name_and_age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># self.name is the name of the person</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and I am </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2"> years old.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span><span class="o">.</span><span class="n">print_name_and_age</span><span class="p">()</span>  <span class="c1"># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
+</span></span></code></pre></div><h2 id="what-is-a-method">What is a Method?</h2>
+<ul>
+<li>A method is a function that is associated with an object.</li>
+<li>A method in python is somewhat similar to a function, except it is associated with object/classes.</li>
+<li>Methods in python are very similar to functions except for two major differences:
+<ul>
+<li>The method is implicitly used for an object for which it is called.</li>
+<li>The method is accessible to data that is contained within the class.</li>
+</ul>
+</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name_and_age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and I am </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2"> years old.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span><span class="o">.</span><span class="n">print_name_and_age</span><span class="p">()</span>  <span class="c1"># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
+</span></span></code></pre></div><h2 id="what-is-inheritance">What is Inheritance?</h2>
+<ul>
+<li>Inheritance is a way to form new classes using classes that have already been defined.</li>
+<li>The newly formed classes are called derived classes, the classes that we derive from are called base classes.</li>
+<li>Important benefits of inheritance are code reuse and reduction of complexity of a program.</li>
+<li>The derived classes (descendants) override or extend the functionality of base classes (ancestors).</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name_and_age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and I am </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2"> years old.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Student</span><span class="p">(</span><span class="n">Person</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">student_id</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># call the __init__ method of the parent class</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">student_id</span> <span class="o">=</span> <span class="n">student_id</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_student_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My student id is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">student_id</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Here we first Create a Person object, and then we create a Student object that inherits the Person class.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># We then use the Student object to call the print_name_and_age() method, which is inherited from the Person class.</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">12345</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span><span class="o">.</span><span class="n">print_name_and_age</span><span class="p">()</span>  <span class="c1"># prints &#34;My name is John Doe and I am 22 years old.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span><span class="o">.</span><span class="n">print_student_id</span><span class="p">()</span>  <span class="c1"># prints &#34;My student id is 12345.&#34;</span>
+</span></span></code></pre></div><h2 id="what-is-encapsulation">What is Encapsulation?</h2>
+<ul>
+<li>Encapsulation is the process of wrapping code and data together into a single unit.</li>
+<li>It is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties'
+direct access to them.</li>
+<li>It is one of the four fundamental OOP concepts.</li>
+<li>The idea of encapsulation is to make sure that &ldquo;sensitive&rdquo; data is hidden from users.</li>
+<li>To achieve this, you must:
+<ul>
+<li>declare class variables/attributes as private</li>
+<li>provide public get and set methods to access and update the value of a private variable</li>
+</ul>
+</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">get_name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">get_age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">set_name</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">set_age</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">get_name</span><span class="p">())</span>  <span class="c1"># prints &#34;John Doe&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">get_age</span><span class="p">())</span>  <span class="c1"># prints &#34;22&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span><span class="o">.</span><span class="n">set_name</span><span class="p">(</span><span class="s2">&#34;Peter Parker&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span><span class="o">.</span><span class="n">set_age</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">get_name</span><span class="p">())</span>  <span class="c1"># prints &#34;Peter Parker&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">get_age</span><span class="p">())</span>  <span class="c1"># prints &#34;23&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># We can also access the private variables directly, but it is not recommended.</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">_Person__name</span><span class="p">)</span>  <span class="c1"># prints &#34;Peter Parker&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">_Person__age</span><span class="p">)</span>  <span class="c1"># prints &#34;23&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># When we access the private variables directly, we get an error.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># This is because Python mangles the name of private variables to avoid name clashes.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># The mangled name is of the form _&lt;class-name&gt;__&lt;variable-name&gt;.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># So, the mangled name of __name is _Person__name.</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">__name</span><span class="p">)</span>  <span class="c1"># AttributeError: &#39;Person&#39; object has no attribute &#39;__name&#39;</span>
+</span></span></code></pre></div><h2 id="what-is-polymorphism">What is Polymorphism?</h2>
+<ul>
+<li>Polymorphism is the ability to take on many forms.</li>
+<li>The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class
+object.</li>
+<li>Polymorphism is the ability to redefine methods for derived classes.</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name_and_age</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and I am </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2"> years old.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>  <span class="c1"># this method is overridden in the Student class</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Student</span><span class="p">(</span><span class="n">Person</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">student_id</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">student_id</span> <span class="o">=</span> <span class="n">student_id</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_student_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My student id is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">student_id</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">print_name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;My name is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and my student id is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">student_id</span><span class="si">}</span><span class="s2">.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Here we first Create a Person object, and then we create a Student object that inherits the Person class.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># We then use the Person object to call the print_name() method, which is overridden in the Student class.</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">p1</span><span class="o">.</span><span class="n">print_name</span><span class="p">()</span>  <span class="c1"># prints &#34;My name is John Doe.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="s2">&#34;John Doe&#34;</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">12345</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span><span class="o">.</span><span class="n">print_name</span><span class="p">()</span>  <span class="c1"># prints &#34;My name is John Doe and my student id is 12345.&#34;</span>
+</span></span></code></pre></div><h2 id="what-is-abstraction">What is Abstraction?</h2>
+<ul>
+<li>Abstraction is the process of hiding the implementation details from the user, only the functionality will be provided
 to
-the user.</li><li>In other words, the user will have the information on what the object does instead of how it does it.</li><li>Abstraction can be achieved with either abstract classes or interfaces.</li><li>Abstract classes are classes that contain one or more abstract methods.</li><li>An abstract method is a method that is declared, but contains no implementation.</li><li>Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods.</li><li>Abstract classes are defined by using the abc module.</li></ul><p>Example:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>from</span> <span class=nn>abc</span> <span class=kn>import</span> <span class=n>ABC</span><span class=p>,</span> <span class=n>abstractmethod</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Shape</span><span class=p>(</span><span class=n>ABC</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=nd>@abstractmethod</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>area</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>pass</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=nd>@abstractmethod</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>perimeter</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>pass</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Square</span><span class=p>(</span><span class=n>Shape</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>side</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>side</span> <span class=o>=</span> <span class=n>side</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>area</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>side</span> <span class=o>*</span> <span class=bp>self</span><span class=o>.</span><span class=n>side</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>perimeter</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=mi>4</span> <span class=o>*</span> <span class=bp>self</span><span class=o>.</span><span class=n>side</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Circle</span><span class=p>(</span><span class=n>Shape</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>radius</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>radius</span> <span class=o>=</span> <span class=n>radius</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>area</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=mf>3.14</span> <span class=o>*</span> <span class=bp>self</span><span class=o>.</span><span class=n>radius</span> <span class=o>*</span> <span class=bp>self</span><span class=o>.</span><span class=n>radius</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>perimeter</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=mi>2</span> <span class=o>*</span> <span class=mf>3.14</span> <span class=o>*</span> <span class=bp>self</span><span class=o>.</span><span class=n>radius</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>s1</span> <span class=o>=</span> <span class=n>Square</span><span class=p>(</span><span class=mi>5</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>s1</span><span class=o>.</span><span class=n>area</span><span class=p>())</span>  <span class=c1># prints &#34;25&#34;</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>s1</span><span class=o>.</span><span class=n>perimeter</span><span class=p>())</span>  <span class=c1># prints &#34;20&#34;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>c1</span> <span class=o>=</span> <span class=n>Circle</span><span class=p>(</span><span class=mi>5</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>c1</span><span class=o>.</span><span class=n>area</span><span class=p>())</span>  <span class=c1># prints &#34;78.5&#34;</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>c1</span><span class=o>.</span><span class=n>perimeter</span><span class=p>())</span>  <span class=c1># prints &#34;31.400000000000002&#34;</span>
+the user.</li>
+<li>In other words, the user will have the information on what the object does instead of how it does it.</li>
+<li>Abstraction can be achieved with either abstract classes or interfaces.</li>
+<li>Abstract classes are classes that contain one or more abstract methods.</li>
+<li>An abstract method is a method that is declared, but contains no implementation.</li>
+<li>Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods.</li>
+<li>Abstract classes are defined by using the abc module.</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Shape</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nd">@abstractmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@abstractmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Square</span><span class="p">(</span><span class="n">Shape</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">side</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">side</span> <span class="o">=</span> <span class="n">side</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">side</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">side</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="mi">4</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">side</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Circle</span><span class="p">(</span><span class="n">Shape</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">radius</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">=</span> <span class="n">radius</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="mf">3.14</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="mf">3.14</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">s1</span> <span class="o">=</span> <span class="n">Square</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>  <span class="c1"># prints &#34;25&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">s1</span><span class="o">.</span><span class="n">perimeter</span><span class="p">())</span>  <span class="c1"># prints &#34;20&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">c1</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="o">.</span><span class="n">area</span><span class="p">())</span>  <span class="c1"># prints &#34;78.5&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">c1</span><span class="o">.</span><span class="n">perimeter</span><span class="p">())</span>  <span class="c1"># prints &#34;31.400000000000002&#34;</span>
 </span></span></code></pre></div><p>I guess that&rsquo;s it for now. I hope this helps someone. If you have any questions, feel free to reach out. I&rsquo;ll try to
 answer them as soon as possible. If you find any mistakes in the post, please create an issue or raise pull request with
-the fix on the <a href=https://github.com/sumit4613/sumit4613.github.io>GitHub repo</a>.
-Thanks for reading. Have a nice day. :)</p></section></main><hr class="sep h-16"><footer><footer class="family-secondary support content"><p class=pb-2>Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a href=https://twitter.com/sumitsingh4613>Twitter</a>, subscribe via <a href=/index.xml>Atom/RSS</a>.</p><p class=pb-8>&copy; Sumit Singh 2022.
-Content is licensed <a href=https://creativecommons.org/licenses/by-sa/4.0/>CC BY-SA 4.0</a>, a Free Culture
-License.
-The <a href=https://github.com/sumit4613/sumit4613.github.io>source code</a> is available under <a href=https://github.com/sumit4613/sumit4613.github.io/blob/master/LICENSE>GPLv3</a>.
-<i>If you see any issue or any typo please create an <a href=https://github.com/sumit4613/sumit4613.github.io/issues>issue here.</a></i><br><br><strong>This site's design is heavily inspired by <a href=https://miles.land/>Miles Land</a>. Due to its
-minimalistic design, it's a great starting point for a personal website.</strong></p></footer></footer></div><aside class="hidden pl-8 self-start sticky-top lg:block text-xs"></aside></div></section></body></html>
+the fix on the <a href="https://github.com/sumit4613/sumit4613.github.io">GitHub repo</a>.
+Thanks for reading. Have a nice day. :)</p>
+
+  </section>
+</main>
+
+
+          <hr class="sep h-16">
+          <footer>
+            <footer class="family-secondary support content">
+    <p class="pb-2">
+        Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a
+            href="https://twitter.com/sumitsingh4613">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>.
+    </p>
+    <p class="pb-8">
+        &copy; Sumit Singh 2022.
+        Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture
+        License.
+        The <a href="https://github.com/sumit4613/sumit4613.github.io">source code</a> is available under <a
+            href="https://github.com/sumit4613/sumit4613.github.io/blob/master/LICENSE">GPLv3</a>.
+        <i>If you see any issue or any typo please create an  <a href="https://github.com/sumit4613/sumit4613.github.io/issues">issue here.</a></i>
+        <br>
+        <br>
+        <strong>This site's design is heavily inspired by <a href="https://miles.land/">Miles Land</a>. Due to its
+            minimalistic design, it's a great starting point for a personal website.</strong>
+    </p>
+</footer>
+
+          </footer>
+        </div>
+        <aside class="hidden pl-8 self-start sticky-top lg:block text-xs">
+          
+        </aside>
+      </div>
+    </section>
+  </body>
+  
+</html>

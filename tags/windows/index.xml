@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>windows on Sumit Singh</title><link>https://sumit4613.github.io/tags/windows/</link><description>Recent content in windows on Sumit Singh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>USB Drive Corrupted? Let's just fix it!</title><link>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</link><pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</guid><description>Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB drive got corrupted. I tried to format it, but it was not working. I tried to fix it using chkdsk, but it was not working either.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Sumit Singh</title>
+    <link>https://sumit4613.github.io/tags/windows/</link>
+    <description>Recent content in windows on Sumit Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USB Drive Corrupted? Let&#39;s just fix it!</title>
+      <link>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</guid>
+      <description>Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB drive got corrupted. I tried to format it, but it was not working. I tried to fix it using chkdsk, but it was not working either.
 So I thought, why not just fix it using diskpart? So here is how I did it.
-Steps Open cmd as administrator.</description></item></channel></rss>
+Steps Open cmd as administrator.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portfolio on Sumit Singh</title><link>https://sumit4613.github.io/portfolio/</link><description>Recent content in Portfolio on Sumit Singh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>NIET, Greater Noida</title><link>https://sumit4613.github.io/portfolio/niet/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/niet/</guid><description>Did my engineering here. Not much to say about it, because I did my major in Electronics and Communication Engineering, which was not that much interesting for me.</description></item><item><title>Carta</title><link>https://sumit4613.github.io/portfolio/carta/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/carta/</guid><description> Majorly Working on product stability. Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time. Worked with pluggy to build plugin based functionality for certification purpose.</description></item><item><title>Civil Machines Technologies</title><link>https://sumit4613.github.io/portfolio/cmt/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/cmt/</guid><description>Day-to-day responsibilities include but not limited to the following:
-Optimised APIs on already built products. Reduced API response time for 2.5 seconds to 250 ms. Reduced computational complexities to linear complexity in different portion of codebase. Optimised Django’s ORM queries to reduce computational time by reducing query complexity from 2n+1 to linear using Django ORM features. For instance, in an API reduced 1000+ queries to 10 queries. Automated deployments of the products using Github Actions.</description></item><item><title>Open source development</title><link>https://sumit4613.github.io/portfolio/opensource/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/opensource/</guid><description>I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a lot of effective community building, communication, and documentation.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Sumit Singh</title>
+    <link>https://sumit4613.github.io/portfolio/</link>
+    <description>Recent content in Portfolio on Sumit Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NIET, Greater Noida</title>
+      <link>https://sumit4613.github.io/portfolio/niet/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/niet/</guid>
+      <description>Did my engineering here. Not much to say about it, because I did my major in Electronics and Communication Engineering, which was not that much interesting for me.</description>
+    </item>
+    
+    <item>
+      <title>Carta</title>
+      <link>https://sumit4613.github.io/portfolio/carta/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/carta/</guid>
+      <description> Majorly Working on product stability. Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time. Worked with pluggy to build plugin based functionality for certification purpose. </description>
+    </item>
+    
+    <item>
+      <title>Civil Machines Technologies</title>
+      <link>https://sumit4613.github.io/portfolio/cmt/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/cmt/</guid>
+      <description>Day-to-day responsibilities include but not limited to the following:
+Optimised APIs on already built products. Reduced API response time for 2.5 seconds to 250 ms. Reduced computational complexities to linear complexity in different portion of codebase. Optimised Django’s ORM queries to reduce computational time by reducing query complexity from 2n+1 to linear using Django ORM features. For instance, in an API reduced 1000+ queries to 10 queries. Automated deployments of the products using Github Actions.</description>
+    </item>
+    
+    <item>
+      <title>Open source development</title>
+      <link>https://sumit4613.github.io/portfolio/opensource/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/opensource/</guid>
+      <description>I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a lot of effective community building, communication, and documentation.
 I&amp;rsquo;ve also learned a lot about programming, and I&amp;rsquo;ve been able to apply that knowledge to my own projects.
 Major contributions:
-drf-user Several Projects at 101 Loop For more details please check out my GitHub profile</description></item><item><title>Programming</title><link>https://sumit4613.github.io/portfolio/programming/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/programming/</guid><description>I am experienced with Python, and it&amp;rsquo;s related tech stack.(Django, Flask, FastAPI, etc.). I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other systems.
-For more details please check out my GitHub profile.</description></item></channel></rss>
+drf-user Several Projects at 101 Loop For more details please check out my GitHub profile</description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://sumit4613.github.io/portfolio/programming/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/programming/</guid>
+      <description>I am experienced with Python, and it&amp;rsquo;s related tech stack.(Django, Flask, FastAPI, etc.). I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other systems.
+For more details please check out my GitHub profile.</description>
+    </item>
+    
+  </channel>
+</rss>

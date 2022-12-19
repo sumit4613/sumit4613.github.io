@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>community on Sumit Singh</title><link>https://sumit4613.github.io/tags/community/</link><description>Recent content in community on Sumit Singh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/tags/community/index.xml" rel="self" type="application/rss+xml"/><item><title>Open source development</title><link>https://sumit4613.github.io/portfolio/opensource/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://sumit4613.github.io/portfolio/opensource/</guid><description>I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a lot of effective community building, communication, and documentation.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>community on Sumit Singh</title>
+    <link>https://sumit4613.github.io/tags/community/</link>
+    <description>Recent content in community on Sumit Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open source development</title>
+      <link>https://sumit4613.github.io/portfolio/opensource/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sumit4613.github.io/portfolio/opensource/</guid>
+      <description>I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a lot of effective community building, communication, and documentation.
 I&amp;rsquo;ve also learned a lot about programming, and I&amp;rsquo;ve been able to apply that knowledge to my own projects.
 Major contributions:
-drf-user Several Projects at 101 Loop For more details please check out my GitHub profile</description></item></channel></rss>
+drf-user Several Projects at 101 Loop For more details please check out my GitHub profile</description>
+    </item>
+    
+  </channel>
+</rss>
