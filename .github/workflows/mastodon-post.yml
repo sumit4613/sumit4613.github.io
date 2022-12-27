@@ -17,7 +17,7 @@ jobs:
       timeout-minutes: 15
 
     - name: Post to Mastodon
-      uses: sumit4613/post-to-mastodon@master
+      uses: sumit4613/post-to-mastodon@main
       if: "contains(github.event.head_commit.message, 'publish')"
       with:
         message: "Hello, folks! I just posted a new blog post. Check it out!"
