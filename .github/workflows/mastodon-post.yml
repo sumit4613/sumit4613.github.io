@@ -10,7 +10,7 @@ jobs:
       with:
         fetch-depth: '0'
     - run: |
-        RECENTLY_ADDED_FILES=$(git log -1 --stat --grep=publish --oneline)
+        RECENTLY_ADDED_FILES=$(git log -1 --stat --grep=publish --oneline | tr '\n' ' ')
         echo $RECENTLY_ADDED_FILES
         echo "RECENTLY_ADDED_FILES=$RECENTLY_ADDED_FILES" >> $GITHUB_ENV
     - name: Setup tmate session
