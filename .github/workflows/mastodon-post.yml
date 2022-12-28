@@ -18,7 +18,7 @@ jobs:
           
 
       - name: Post to Mastodon
-        uses: sumit4613/post-to-mastodon@main
+        uses: sumit4613/post-to-mastodon@v0.1
         with:
           message: "Hello, folks! I just posted a new blog post. Check it out!"
           base_blog_url: "https://sumit4613.github.io/posts/"
