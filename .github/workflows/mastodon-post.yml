@@ -8,9 +8,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        fetch-depth: 0
-    - name: log recently added files
+        fetch-depth: '0'
       run: |
+        git checkout HEAD^
         git log -1 --stat --grep=publish --oneline >> "${RECENTLY_ADDED_FILES}"
 
     - name: Setup tmate session
