@@ -10,9 +10,9 @@ jobs:
       with:
         fetch-depth: '0'
     - run: |
-        git checkout HEAD^
         RECENTLY_ADDED_FILES=$(git log -1 --stat --grep=publish --oneline)
-
+        echo $RECENTLY_ADDED_FILES
+        echo "RECENTLY_ADDED_FILES=$RECENTLY_ADDED_FILES" >> $GITHUB_ENV
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
       timeout-minutes: 10
