@@ -7,13 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
-    - name: Logging
-      run: |
-        echo "${{toJSON(github.event)}}"
-
+        fetch-depth: 0
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
       timeout-minutes: 30
