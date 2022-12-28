@@ -7,10 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-      with:
-        fetch-depth: '0'
     - run: |
-        RECENTLY_ADDED_FILES=$(git log -1 --stat --grep=publish --oneline | tr '\n' ' ')
+        RECENTLY_ADDED_FILES=$(git log -1 --stat --grep=publish --oneline --name-only | tr '\n' ' ')
         echo $RECENTLY_ADDED_FILES
         echo "RECENTLY_ADDED_FILES=$RECENTLY_ADDED_FILES" >> $GITHUB_ENV
     - name: Setup tmate session
