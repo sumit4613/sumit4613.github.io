@@ -11,7 +11,7 @@ jobs:
         fetch-depth: 0
     - name: log recently added files
       run: |
-        git log -1 --stat --grep=publish --oneline >> $RECENTLY_ADDED_FILES
+        git log -1 --stat --grep=publish --oneline >> "${RECENTLY_ADDED_FILES}"
 
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
