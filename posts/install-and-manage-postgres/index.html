@@ -25,7 +25,7 @@ sudo apt-get -y install&hellip;" />
 
 <link rel="stylesheet" href="https://sumit4613.github.io/styles/base.min.7a54543f62c87dca91739b5348c7e710a0b75a872743e8dec760805b465f2f00.css" />
 
-<script async defer src="https://sumit4613.github.io/scripts/base.min.5a8f83f82ff29859774a645a724a9c2e1d82026d1ca8650232300636aa206a82.js"></script>
+<script async defer src="https://sumit4613.github.io/scripts/base.min.e41a7bea33bfac854e51104c82ac0aa8b8b45aa8abb796884739cb5f228b45fa.js"></script>
 
 
   </head>
@@ -142,7 +142,7 @@ sudo apt-get -y install&hellip;" />
 </span></span></span></code></pre></div><h3 id="create-database-and-grant-access-to-the-user">Create database and grant access to the user</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo -u postgres createdb hisabkitab --owner loop101
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">sudo -u postgres psql -c <span class="s2">&#34;ALTER USER loop101 WITH PASSWORD &#39;@jn1z&amp;xy+*jkcm^&#39;;&#34;</span>
+</span></span><span class="line"><span class="cl">sudo -u postgres psql -c <span class="s2">&#34;ALTER USER loop101 WITH PASSWORD &#39;my-strong-password&#39;;&#34;</span>
 </span></span></code></pre></div><h3 id="backup-and-restore-in-sql-format">Backup and Restore in SQL format</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pg_dump -U db_user database_name &gt; path/to/backup.sql
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">psql -U db_user database_name &lt; path/to/backup.sql
@@ -180,7 +180,7 @@ sudo apt-get -y install&hellip;" />
             href="https://twitter.com/sumitsingh4613">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>.
     </p>
     <p class="pb-8">
-        &copy; Sumit Singh 2022.
+        &copy; Sumit Singh 2023.
         Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture
         License.
         The <a href="https://github.com/sumit4613/sumit4613.github.io">source code</a> is available under <a
