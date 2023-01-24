@@ -40,7 +40,7 @@ Shall the new role be allowed to create more new roles? (y/n) n
 ```shell
 sudo -u postgres createdb hisabkitab --owner loop101
 
-sudo -u postgres psql -c "ALTER USER loop101 WITH PASSWORD '@jn1z&xy+*jkcm^';"
+sudo -u postgres psql -c "ALTER USER loop101 WITH PASSWORD 'my-strong-password';"
 ```
 
 ### Backup and Restore in SQL format
