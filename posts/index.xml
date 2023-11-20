@@ -6,66 +6,56 @@
     <description>Recent content in Posts on Sumit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sumit4613.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sumit4613.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let&#39;s talk about decorators in Python</title>
       <link>https://sumit4613.github.io/posts/python-decorators/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/python-decorators/</guid>
       <description>Let&amp;rsquo;s learn a little about decorators in Python. We will learn about what are decorators, how to use them, and how to create them.
 What are decorators? Decorators are functions which take another function as an argument and returns another function. They are used to extend the behavior of the latter function without explicitly modifying it.
 How to use decorators? Let&amp;rsquo;s see how to use decorators in Python. We will use the @ symbol to use decorators.</description>
     </item>
-    
     <item>
       <title>Django Middlewares</title>
       <link>https://sumit4613.github.io/posts/django_middlewares/</link>
       <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/django_middlewares/</guid>
       <description>We&amp;rsquo;ll come to know about middlewares in django but first, let&amp;rsquo;s understand what is a middleware.
 What is a middleware? Middleware is a software that acts as a bridge between an operating system and applications running on it. It provides common services and capabilities to applications outside what&amp;rsquo;s available from the operating system.
 What is a django middleware? A middleware is a component that sits between the Django view and the Django template.</description>
     </item>
-    
     <item>
       <title>USB Drive Corrupted? Let&#39;s just fix it!</title>
       <link>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</guid>
       <description>Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB drive got corrupted. I tried to format it, but it was not working. I tried to fix it using chkdsk, but it was not working either.
 So I thought, why not just fix it using diskpart? So here is how I did it.
 Steps Open cmd as administrator.</description>
     </item>
-    
     <item>
       <title>Oops! Python</title>
       <link>https://sumit4613.github.io/posts/oops-python/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/oops-python/</guid>
       <description>I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So here it is.
 What is Object-Oriented Programming? Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and program applications. OOP is a way of programming that is based on the concept of &amp;ldquo;objects&amp;rdquo;, which can contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods.</description>
     </item>
-    
     <item>
       <title>Moving Django Projects to a new server</title>
       <link>https://sumit4613.github.io/posts/move-django-projects-to-new-server/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/move-django-projects-to-new-server/</guid>
       <description>I keep migrating django projects from one provider to another. Everytime, I have to look up the same steps. So I decided to write them down here. It is a bit of a long post that contains various commands and sample config files, but I hope it will be useful to someone.
 I&amp;rsquo;m assuming by now, you already created a new instance and is able to ssh into it.
 Install/Update Server Dependencies sudo apt-get update sudo apt-get -y upgrade PostgreSQL Note: I install postgres inside the server, you can use RDS or some external service as well.</description>
     </item>
-    
     <item>
       <title>Install and Manage your own PostgreSQL Server</title>
       <link>https://sumit4613.github.io/posts/install-and-manage-postgres/</link>
       <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/install-and-manage-postgres/</guid>
       <description>Commands which I use to install and manage my own PostgreSQL server.
 Install the dependencies to use Postgres with Python/Django
@@ -73,18 +63,15 @@ sudo apt-get -y install build-essential libpq-dev python3-dev Install Postgres S
 sudo apt-get -y install postgresql postgresql-contrib Create a new user sudo -u postgres createuser --interactive After running the above command, you will be prompted something like this:
 Enter name of role to add: new-user Shall the new role be a superuser?</description>
     </item>
-    
     <item>
       <title>Install Python</title>
       <link>https://sumit4613.github.io/posts/install-python-in-ubuntu/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://sumit4613.github.io/posts/install-python-in-ubuntu/</guid>
       <description>On new Ubuntu servers, Python 3.10 is installed by default. But if you want to install a specific version of Python, this post shows you how.
 Run the following commands with sudo or root user.
 Install the prerequisites sudo apt-get update sudo apt install software-properties-common Update the sources sudo add-apt-repository ppa:deadsnakes/ppa When prompted press Enter to continue:
 Press [ENTER] to continue or Ctrl-c to cancel adding it. Install Python 3.8 sudo apt-get -y install python3.</description>
     </item>
-    
   </channel>
 </rss>
