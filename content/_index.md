@@ -20,8 +20,8 @@ For more details check [portfolio](/portfolio/) or [posts](/posts/).
 
 ### Currently
 
-I'm currently working at Vitartha Consultancy Pvt Ltd as a software engineer. Previously
-at [Carta Healthcare](https://www.carta.healthcare/).
+I'm currently working at [Spicy Carrot](https://www.spicycarrot.tech/) as a senior engineer. Previously
+at [Carta Healthcare](https://www.carta.healthcare/) and Vitartha Consultancy Pvt Ltd.
 I also maintain few open source projects, you can find them at [GitHub](https://github.com/101Loop).
 
 ### Contact
