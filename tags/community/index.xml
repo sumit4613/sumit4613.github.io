@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>community on Sumit Singh</title>
+    <title>Community on Sumit Singh</title>
     <link>https://sumit4613.github.io/tags/community/</link>
-    <description>Recent content in community on Sumit Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Community on Sumit Singh</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/tags/community/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,7 @@
       <link>https://sumit4613.github.io/portfolio/opensource/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/opensource/</guid>
-      <description>I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a lot of effective community building, communication, and documentation.
-I&amp;rsquo;ve also learned a lot about programming, and I&amp;rsquo;ve been able to apply that knowledge to my own projects.
-Major contributions:
-drf-user Several Projects at 101 Loop For more details please check out my GitHub profile</description>
+      <description>&lt;p&gt;I have contributed to many open source projects be it code or documentation. By maintaining and contributing to these projects, I&amp;rsquo;ve learned about a&#xA;lot of effective community building, communication, and documentation.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve also learned a lot about programming, and I&amp;rsquo;ve been able to apply that knowledge to my own projects.&lt;/p&gt;&#xA;&lt;p&gt;Major contributions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/101loop/drf-user&#34;&gt;drf-user&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Several Projects at &lt;a href=&#34;https://github.com/101loop&#34;&gt;101 Loop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more details please check out my &lt;a href=&#34;https://github.com/sumit4613&#34;&gt;GitHub profile&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

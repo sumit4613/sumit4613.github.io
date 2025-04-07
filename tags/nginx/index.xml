@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nginx on Sumit Singh</title>
+    <title>Nginx on Sumit Singh</title>
     <link>https://sumit4613.github.io/tags/nginx/</link>
-    <description>Recent content in nginx on Sumit Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Nginx on Sumit Singh</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,7 @@
       <link>https://sumit4613.github.io/posts/move-django-projects-to-new-server/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/posts/move-django-projects-to-new-server/</guid>
-      <description>I keep migrating django projects from one provider to another. Everytime, I have to look up the same steps. So I decided to write them down here. It is a bit of a long post that contains various commands and sample config files, but I hope it will be useful to someone.
-I&amp;rsquo;m assuming by now, you already created a new instance and is able to ssh into it.
-Install/Update Server Dependencies sudo apt-get update sudo apt-get -y upgrade PostgreSQL Note: I install postgres inside the server, you can use RDS or some external service as well.</description>
+      <description>&lt;p&gt;I keep migrating django projects from one provider to another. Everytime, I have to look up the same steps. So I decided&#xA;to write them down here.&#xA;It is a bit of a long post that contains various commands and sample config files, but I hope it will be useful to&#xA;someone.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m assuming by now, you already created a new instance and is able to ssh into it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installupdate-server-dependencies&#34;&gt;Install/Update Server Dependencies&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get -y upgrade&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;postgresql&#34;&gt;PostgreSQL&lt;/h3&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: I install postgres inside the server, you can use RDS or some external service as well.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

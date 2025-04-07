@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>corrupted on Sumit Singh</title>
+    <title>Corrupted on Sumit Singh</title>
     <link>https://sumit4613.github.io/tags/corrupted/</link>
-    <description>Recent content in corrupted on Sumit Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Corrupted on Sumit Singh</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/tags/corrupted/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,7 @@
       <link>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</link>
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/posts/fix-corrupted-usb-drive/</guid>
-      <description>Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB drive got corrupted. I tried to format it, but it was not working. I tried to fix it using chkdsk, but it was not working either.
-So I thought, why not just fix it using diskpart? So here is how I did it.
-Steps Open cmd as administrator.</description>
+      <description>&lt;p&gt;Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB&#xA;drive got corrupted. I tried to format it, but it was not working. I tried to fix it using &lt;code&gt;chkdsk&lt;/code&gt;, but it was not&#xA;working either.&lt;/p&gt;&#xA;&lt;p&gt;So I thought, why not just fix it using &lt;code&gt;diskpart&lt;/code&gt;? So here is how I did it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open &lt;code&gt;cmd&lt;/code&gt; as administrator.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;diskpart&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;list disk&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;select disk &amp;lt;disk_number&amp;gt;&lt;/code&gt; and press enter. (Replace &lt;code&gt;&amp;lt;disk_number&amp;gt;&lt;/code&gt; with the disk number of your USB drive)&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;clean&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;create partition primary&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;select partition 1&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;Type &lt;code&gt;format fs=fat32&lt;/code&gt; and press enter.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;ll take a while to format the drive. So just wait for it. And do not interrupt the process.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it. Now you can use your USB drive as you want. I hope this post helped you. If you have any questions, feel free&#xA;to reach out. I&amp;rsquo;ll try to answer them as soon as possible. If you find any mistakes in the post, please create an issue&#xA;or raise pull request with the fix.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

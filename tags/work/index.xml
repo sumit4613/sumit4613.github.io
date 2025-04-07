@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>work on Sumit Singh</title>
+    <title>Work on Sumit Singh</title>
     <link>https://sumit4613.github.io/tags/work/</link>
-    <description>Recent content in work on Sumit Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Work on Sumit Singh</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
@@ -13,15 +13,14 @@
       <link>https://sumit4613.github.io/portfolio/carta/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/carta/</guid>
-      <description> Majorly Working on product stability. Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time. Worked with pluggy to build plugin based functionality for certification purpose. </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Majorly Working on product stability.&lt;/li&gt;&#xA;&lt;li&gt;Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time.&lt;/li&gt;&#xA;&lt;li&gt;Worked with pluggy to build plugin based functionality for certification purpose.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Civil Machines Technologies</title>
       <link>https://sumit4613.github.io/portfolio/cmt/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/cmt/</guid>
-      <description>Day-to-day responsibilities include but not limited to the following:
-Optimised APIs on already built products. Reduced API response time for 2.5 seconds to 250 ms. Reduced computational complexities to linear complexity in different portion of codebase. Optimised Django’s ORM queries to reduce computational time by reducing query complexity from 2n+1 to linear using Django ORM features. For instance, in an API reduced 1000+ queries to 10 queries. Automated deployments of the products using Github Actions.</description>
+      <description>&lt;p&gt;Day-to-day responsibilities include but not limited to the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimised APIs on already built products. Reduced API response time for 2.5&#xA;seconds to 250 ms.&lt;/li&gt;&#xA;&lt;li&gt;Reduced computational complexities to linear complexity in different portion of&#xA;codebase.&lt;/li&gt;&#xA;&lt;li&gt;Optimised Django’s ORM queries to reduce computational time by reducing&#xA;query complexity from 2n+1 to linear using Django ORM features. For&#xA;instance, in an API reduced 1000+ queries to 10 queries.&lt;/li&gt;&#xA;&lt;li&gt;Automated deployments of the products using Github Actions.&lt;/li&gt;&#xA;&lt;li&gt;Established test case structure and increased coverage from 0% to 93%, mostly&#xA;using e2e test cases. Avoided unit test because of time constraint.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

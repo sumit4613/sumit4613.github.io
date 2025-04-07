@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>oops on Sumit Singh</title>
+    <title>Oops on Sumit Singh</title>
     <link>https://sumit4613.github.io/tags/oops/</link>
-    <description>Recent content in oops on Sumit Singh</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Oops on Sumit Singh</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/tags/oops/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <link>https://sumit4613.github.io/posts/oops-python/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/posts/oops-python/</guid>
-      <description>I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I thought why not write a post about it. So here it is.
-What is Object-Oriented Programming? Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and program applications. OOP is a way of programming that is based on the concept of &amp;ldquo;objects&amp;rdquo;, which can contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods.</description>
+      <description>&lt;p&gt;I was refreshing my theoretical concepts of Object-Oriented Programming. So just to remember all of my learnings, I&#xA;thought why not write a post about it. So here it is.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-object-oriented-programming&#34;&gt;What is Object-Oriented Programming?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Object-Oriented Programming (OOP) is a programming paradigm that uses objects and their interactions to design and&#xA;program applications.&lt;/li&gt;&#xA;&lt;li&gt;OOP is a way of programming that is based on the concept of &amp;ldquo;objects&amp;rdquo;, which can contain data, in the form of fields,&#xA;often known as attributes; and code, in the form of procedures, often known as methods.&lt;/li&gt;&#xA;&lt;li&gt;A feature of object is that an object&amp;rsquo;s procedures can access and often modify the data fields of the object with&#xA;which they are associated (objects have a notion of &amp;ldquo;this&amp;rdquo; or &amp;ldquo;self&amp;rdquo;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-an-object&#34;&gt;What is an Object?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An object is a software bundle of related state and behavior.&lt;/li&gt;&#xA;&lt;li&gt;Objects are the things you think about first in designing a program, and they are also the units of code that are&#xA;eventually derived from the process.&lt;/li&gt;&#xA;&lt;li&gt;An object is an instance of a class.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-a-class&#34;&gt;What is a Class?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A class is a blueprint or prototype that defines a set of attributes that will characterize any object that is&#xA;instantiated from the class.&lt;/li&gt;&#xA;&lt;li&gt;A class can be defined as a collection of objects. It is a logical entity that has some specific attributes and&#xA;methods (functions) defined within it.&lt;/li&gt;&#xA;&lt;li&gt;A class is like an object constructor, or a &amp;ldquo;blueprint&amp;rdquo; for creating objects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
