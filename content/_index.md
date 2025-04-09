@@ -11,16 +11,18 @@ Exploring the world of software development, and trying to figure out life.
 
 Things which tells that I'm a software engineer:
 
-- Mentor beginner developers on how to contribute to open source projects in PyCon India. Participated in 2020 and 2021.
+- I love to write code, and I do it for a living.
+- DjangoCon EU 2025 [speaker](https://pretalx.evolutio.pt/djangocon-europe-2025/talk/WKMHAU/). 
+- Mentored beginner developers on how to contribute to open source projects in PyCon India. Participated in 2020 and 2021.
 - Refactored and Increased code coverage of [drf-user](https://github.com/101loop/drf-user) from 0% to
-  96%. ([Total downloads](https://pepy.tech/project/drf-user) till now ~45k)
+  96%. ([Total downloads](https://pepy.tech/project/drf-user) till now ~63k)
 - Need to add more things here. (I'm lazy)
 
 For more details check [portfolio](/portfolio/) or [posts](/posts/).
 
 ### Currently
 
-I'm currently working at [Spicy Carrot](https://www.spicycarrot.tech/) as a senior engineer. Previously
+I'm currently working at [Spicy Carrot](https://www.spicycarrot.tech/) as a senior software engineer. Previously
 at [Carta Healthcare](https://www.carta.healthcare/) and Vitartha Consultancy Pvt Ltd.
 I also maintain few open source projects, you can find them at [GitHub](https://github.com/101Loop).
 
