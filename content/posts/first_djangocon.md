@@ -57,7 +57,7 @@ the connections made and the sense of belonging to this community were the true 
 If you're considering attending or speaking at a DjangoCon in the future, I wholeheartedly encourage you to do so. The
 Django community is truly special, and there's nothing quite like experiencing it firsthand.
 
-![A photo of of me during the talk](first_djangocon-media/talk.jpeg)
+![A photo of of me during the talk](../first_djangocon-media/talk.jpeg)
 
 If you're interested in the content of my talk, I've uploaded the slides to GitHub. They're available
 at <a href="https://github.com/sumit4613/djangocon-eu-2025" target="_blank">https://github.com/sumit4613/djangocon-eu-2025</a>.
