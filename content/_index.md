@@ -6,30 +6,34 @@ url: /
 draft: false
 ---
 
-I'm a software engineer from India.
-Exploring the world of software development, and trying to figure out life.
+I'm a software engineer from India, exploring the world of software development — and life.
 
-Things which tells that I'm a software engineer:
+### About Me
 
-- I love to write code, and I do it for a living.
-- DjangoCon EU 2025 [speaker](https://pretalx.evolutio.pt/djangocon-europe-2025/talk/WKMHAU/). 
-- Mentored beginner developers on how to contribute to open source projects in PyCon India. Participated in 2020 and 2021.
-- Refactored and Increased code coverage of [drf-user](https://github.com/101loop/drf-user) from 0% to
-  96%. ([Total downloads](https://pepy.tech/project/drf-user) till now ~63k)
-- Need to add more things here. (I'm lazy)
+- I love to write code, and I'm lucky enough to do it for a living.
+- Spoke at DjangoCon EU 2025 on **Scaling Django Admin** — [see my talk](https://pretalx.evolutio.pt/djangocon-europe-2025/talk/WKMHAU/).
+- Mentored beginner developers on contributing to open source at PyCon India (2020, 2021).
+- Maintainer of [drf-user](https://github.com/101loop/drf-user) ([~64k downloads](https://pepy.tech/project/drf-user)
+  and counting!)
+- Always learning, always building — more updates soon.
 
 For more details check [portfolio](/portfolio/) or [posts](/posts/).
 
+---
+
 ### Currently
 
-I'm currently working at [Spicy Carrot](https://www.spicycarrot.tech/) as a senior software engineer. Previously
-at [Carta Healthcare](https://www.carta.healthcare/) and Vitartha Consultancy Pvt Ltd.
-I also maintain few open source projects, you can find them at [GitHub](https://github.com/101Loop).
+**Senior Software Engineer** at [Spicy Carrot](https://www.spicycarrot.tech/).  
+Previously at [Carta Healthcare](https://www.carta.healthcare/) and Vitartha Consultancy Pvt Ltd.  
+I also maintain a few open source projects — find them on [GitHub](https://github.com/101Loop).
+
+---
 
 ### Contact
 
-- GitHub, my handle is [sumit4613](https://github.com/sumit4613).
-- Mastodon, checkout [@sumit4613](https://fosstodon.org/@sumit4613)
-- Twitter, look for [@sumitsingh4613](https://twitter.com/sumitsingh4613).
-- LinkedIn, my profile is [here](https://www.linkedin.com/in/sumit4613/).
-- Old school eh? Email me at [sumit.singh4613@gmail.com](mailto:sumit.singh4613@gmail.com)
+- **GitHub:** [@sumit4613](https://github.com/sumit4613)
+- **Twitter:** [@sumitsingh4613](https://twitter.com/sumitsingh4613)
+- **LinkedIn:** [here](https://www.linkedin.com/in/sumit4613/)
+- **Email:** [sumit.singh4613@gmail.com](mailto:sumit.singh4613@gmail.com)
+
+---
