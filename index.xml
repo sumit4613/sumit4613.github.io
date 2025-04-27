@@ -6,7 +6,7 @@
     <description>Recent content in Hey, I&#39;m Sumit. on Sumit Singh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sumit4613.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NIET, Greater Noida</title>
@@ -42,6 +42,13 @@
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/programming/</guid>
       <description>&lt;p&gt;I am experienced with Python, and it&amp;rsquo;s related tech stack.(Django, Flask, FastAPI, etc.).&#xA;I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other systems.&lt;/p&gt;&#xA;&lt;p&gt;For more details please check out my &lt;a href=&#34;https://github.com/sumit4613/&#34;&gt;GitHub profile&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First DjangoCon: Lessons, Nerves, and Unforgettable Moments</title>
+      <link>https://sumit4613.github.io/posts/first_djangocon/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sumit4613.github.io/posts/first_djangocon/</guid>
+      <description>&lt;p&gt;&lt;em&gt;My thoughts on my first ever DjangoCon.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In April 2025, I attended DjangoCon Europe in Dublin. This was my first DjangoCon experience, both as an attendee and as&#xA;a speaker, and it was truly memorable.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-talk-on-scaling-django-admin&#34;&gt;My Talk on Scaling Django Admin&lt;/h2&gt;&#xA;&lt;p&gt;I had the opportunity to present a talk on how to scale Django Admin. As someone who has worked with Django for years, I&#xA;was excited to share my insights and experiences with the community. Preparing for this talk was both challenging and&#xA;rewarding, as it pushed me to organize my thoughts and distill my knowledge into a coherent presentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Let&#39;s talk about decorators in Python</title>
