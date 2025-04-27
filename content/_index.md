@@ -11,8 +11,7 @@ I'm a software engineer from India, exploring the world of software development 
 ### About Me
 
 - I love to write code, and I'm lucky enough to do it for a living.
-- Spoke at DjangoCon EU 2025 on **Scaling Django Admin
-  ** — [see my talk](https://pretalx.evolutio.pt/djangocon-europe-2025/talk/WKMHAU/).
+- Spoke at DjangoCon EU 2025 on **Scaling Django Admin** — [see my talk](https://pretalx.evolutio.pt/djangocon-europe-2025/talk/WKMHAU/).
 - Mentored beginner developers on contributing to open source at PyCon India (2020, 2021).
 - Maintainer of [drf-user](https://github.com/101loop/drf-user) ([~64k downloads](https://pepy.tech/project/drf-user)
   and counting!)
