@@ -1,5 +1,7 @@
 <footer class="family-secondary support content">
-    {{ partial "giscus.html" . }}
+    {{ if eq .Section "posts" }}
+        {{ partial "giscus.html" . }}
+    {{ end }}
     <p class="pb-2">
         Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a
             href="https://twitter.com/sumitsingh4613">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>.
