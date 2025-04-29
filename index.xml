@@ -20,7 +20,7 @@
       <link>https://sumit4613.github.io/portfolio/carta/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/carta/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Majorly Working on product stability.&lt;/li&gt;&#xA;&lt;li&gt;Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time.&lt;/li&gt;&#xA;&lt;li&gt;Worked with pluggy to build plugin based functionality for certification purpose.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Majorly worked on product stability.&lt;/li&gt;&#xA;&lt;li&gt;Worked on enterprise integration - achieved NCDR’s CathPCI Certification in record time.&lt;/li&gt;&#xA;&lt;li&gt;Worked with pluggy to build plugin based functionality for certification purpose.&lt;/li&gt;&#xA;&lt;li&gt;Optimized API to reduce response time by 80%.&lt;/li&gt;&#xA;&lt;li&gt;Increased code coverage of code-base by 30%.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Civil Machines Technologies</title>
@@ -42,6 +42,13 @@
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://sumit4613.github.io/portfolio/programming/</guid>
       <description>&lt;p&gt;I am experienced with Python, and it&amp;rsquo;s related tech stack.(Django, Flask, FastAPI, etc.).&#xA;I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other systems.&lt;/p&gt;&#xA;&lt;p&gt;For more details please check out my &lt;a href=&#34;https://github.com/sumit4613/&#34;&gt;GitHub profile&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vitartha Consultancy Pvt Ltd</title>
+      <link>https://sumit4613.github.io/portfolio/vcpl/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://sumit4613.github.io/portfolio/vcpl/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Majorly worked here on scaling APIs and optimizing performance.&lt;/li&gt;&#xA;&lt;li&gt;Created scalable solutions to sync data from legacy systems to new django based systems.&lt;/li&gt;&#xA;&lt;li&gt;Helped various clients in scalability planning and performance tuning.&lt;/li&gt;&#xA;&lt;li&gt;Helped clients to upgrade Django to newer stable versions.&lt;/li&gt;&#xA;&lt;li&gt;Implemented better automated testing.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>My First DjangoCon: Lessons, Nerves, and Unforgettable Moments</title>
