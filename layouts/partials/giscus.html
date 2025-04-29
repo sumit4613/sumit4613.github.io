@@ -1,5 +1,3 @@
-{{- if isset .Site.Params "giscus" -}}
-{{- if and (isset .Site.Params.giscus "repo") (not (eq .Site.Params.giscus.repo "" )) (eq (.Params.disable_comments | default false) false) -}}
 <script src="https://giscus.app/client.js"
         data-repo="sumit4613/sumit4613.github.io"
         data-repo-id="MDEwOlJlcG9zaXRvcnkxNzg0NTk0MDg="
@@ -16,5 +14,3 @@
         crossorigin="anonymous"
         async>
 </script>
-{{- end -}}
-{{- end -}}
