@@ -3,7 +3,7 @@ title: "Carta"
 subtitle: "Backend Engineer"
 category: Work
 tags: [ "work" ]
-dateOverride: "Jan ’21 – July '22"
+dateOverride: "Jan ’21 – July ’22"
 date: 2022-09-01
 highlightSubtitle: false
 weight: 2
