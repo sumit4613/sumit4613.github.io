@@ -3,23 +3,23 @@
   <head>
     
 
-<title>USB Drive Corrupted? Let&#39;s just fix it! | Sumit Singh</title>
+<title>Events | Sumit Singh</title>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB
-drive got corrupted. I tried to format it, &hellip;" />
-<meta property="og:description" content="Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB
-drive got corrupted. I tried to format it, &hellip;" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
 <meta property="og:site_name" content="Sumit Singh"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="USB Drive Corrupted? Let&#39;s just fix it! | Sumit Singh"/>
-<meta property="og:url" content="https://sumit4613.github.io/posts/fix-corrupted-usb-drive/"/>
-<link rel="canonical" href="https://sumit4613.github.io/posts/fix-corrupted-usb-drive/"/>
+<meta property="og:title" content="Events | Sumit Singh"/>
+<meta property="og:url" content="https://sumit4613.github.io/tags/events/"/>
+<link rel="canonical" href="https://sumit4613.github.io/tags/events/"/>
 <link rel="me" href="https://fosstodon.org/@sumit4613"/>
 <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="0a3e961b-6860-4254-899b-ad117e2017dd"
         async></script>
 
+
+<link rel="alternate" type="application/rss+xml" href="https://sumit4613.github.io/tags/events/index.xml" title="Events | Sumit Singh"/>
 
 <link rel='icon' type='image/png' href='https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg'/>
 
@@ -40,7 +40,7 @@ drive got corrupted. I tried to format it, &hellip;" />
     
     <img class="rounded-full h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Sumit; links to home." src="https://sumit4613.github.io/images/avatar.3628534a52ffff44dc80bf8c695cf2d9cba2fc8e396883029bdcc92b8dbe55e4.jpg" />
   </a>
-  <div class="text-right md:-mt-1 md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100">
+  <div class="text-right md:-mt-1 ">
     <div class="md:text-right">
       <ul class="-ml-2 md:ml-0 flex md:block">
         
@@ -56,7 +56,7 @@ drive got corrupted. I tried to format it, &hellip;" />
         </li>
         
         <li>
-          <div class="portal font-semibold ~warning  active ">
+          <div class="portal font-semibold ~warning  text-warning-500 ">
             <a href="/posts/">
               
               <span>Posts</span>
@@ -80,7 +80,7 @@ drive got corrupted. I tried to format it, &hellip;" />
         
             
             <h3 class="inline heading font-bold md:text-4xl">
-                USB Drive Corrupted? Let's just fix it!
+                Events
                 
             </h3>
             <h3 class="inline heading font-bold md:text-4xl opacity-50">
@@ -90,22 +90,6 @@ drive got corrupted. I tried to format it, &hellip;" />
     </div>
     <div class="mt-4">
         
-        <span class="chip ~neutral !low -ml-2 mb-2">
-            Oct 19, 2022
-        </span>
-        
-        
-        
-        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="https://sumit4613.github.io/tags/windows/" aria-label="tagged under Windows">Windows</a>
-        
-        
-        
-        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="https://sumit4613.github.io/tags/usb-drive/" aria-label="tagged under Usb-Drive">Usb-Drive</a>
-        
-        
-        
-        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="https://sumit4613.github.io/tags/corrupted/" aria-label="tagged under Corrupted">Corrupted</a>
-        
         
     </div>
 </section>
@@ -114,52 +98,67 @@ drive got corrupted. I tried to format it, &hellip;" />
           <hr class="sep h-8">
           
 <main>
-  <section class="content">
-    <p>Recently, I was trying to boot ubuntu to an old system. And while I was making my bootable USB drive, somehow my USB
-drive got corrupted. I tried to format it, but it was not working. I tried to fix it using <code>chkdsk</code>, but it was not
-working either.</p>
-<p>So I thought, why not just fix it using <code>diskpart</code>? So here is how I did it.</p>
-<h2 id="steps">Steps</h2>
-<ol>
-<li>Open <code>cmd</code> as administrator.</li>
-<li>Type <code>diskpart</code> and press enter.</li>
-<li>Type <code>list disk</code> and press enter.</li>
-<li>Type <code>select disk &lt;disk_number&gt;</code> and press enter. (Replace <code>&lt;disk_number&gt;</code> with the disk number of your USB drive)</li>
-<li>Type <code>clean</code> and press enter.</li>
-<li>Type <code>create partition primary</code> and press enter.</li>
-<li>Type <code>select partition 1</code> and press enter.</li>
-<li>Type <code>format fs=fat32</code> and press enter.</li>
-<li>It&rsquo;ll take a while to format the drive. So just wait for it. And do not interrupt the process.</li>
-</ol>
-<h2 id="conclusion">Conclusion</h2>
-<p>That&rsquo;s it. Now you can use your USB drive as you want. I hope this post helped you. If you have any questions, feel free
-to reach out. I&rsquo;ll try to answer them as soon as possible. If you find any mistakes in the post, please create an issue
-or raise pull request with the fix.</p>
+    
+    <section>
+        
+        
+        <div class="flex">
+  <div class="self-start sticky-top vertical mt-1">
+    <h3 class="label leading-none text-neutral-900 pb-2 toc-include" id="apr-25">Apr ’25</h3>
+  </div>
+  <div class="flex-grow pl-4 md:pl-6 flex-grow">
+    <ul>
+      
+      <li class="mb-4">
+  <a  href="https://sumit4613.github.io/posts/first-djangocon/"  class="md:flex">
+    <div class="md:w-9/12">
+      <h3 class="heading text-base font-normal content text-neutral-800">
+      
+      My First DjangoCon: Lessons, Nerves, and Unforgettable Moments
+      
+      
+      
+      </h3>
+      <span class="md:hidden pl-0 badge ~neutral !low inline">
+        
+        Apr 26, 2025
+        
+      </span>
+      
+      
+      <span class="badge ~neutral !normal bg-neutral-100 font-normal inline">Django</span>
+      
+      
+      
+      <span class="badge ~neutral !normal bg-neutral-100 font-normal inline">Events</span>
+      
+      
+      
+      <span class="badge ~neutral !normal bg-neutral-100 font-normal inline">Djangocon</span>
+      
+      
+    </div>
+    <div class="hidden md:block support family-secondary md:w-3/12 text-right md:pl-2 mt-0 text-neutral-600">
+      
+      Apr 26, 2025
+      
+    </div>
+  </a>
+</li>
 
-  </section>
+      
+    </ul>
+  </div>
+</div>
+
+        
+        
+    </section>
 </main>
-
 
           <hr class="sep h-16">
           <footer>
             <footer class="family-secondary support content">
-    
-        <script src="https://giscus.app/client.js"
-        data-repo="sumit4613/sumit4613.github.io"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxNzg0NTk0MDg="
-        data-category="General"
-        data-category-id="DIC_kwDOCqMTEM4CplMO"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
     
     <p class="pb-2">
         Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a
@@ -173,6 +172,7 @@ or raise pull request with the fix.</p>
             href="https://github.com/sumit4613/sumit4613.github.io/blob/master/LICENSE">GPLv3</a>.
         <i>If you see any issue or any typo please create an <a
                 href="https://github.com/sumit4613/sumit4613.github.io/issues">issue here.</a></i>
+        This page is also available via <a href="https://sumit4613.github.io/tags/events/index.xml">rss</a>.
         <br>
         <br>
     </p>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Djangocon on Sumit Singh</title>
+    <link>https://sumit4613.github.io/tags/djangocon/</link>
+    <description>Recent content in Djangocon on Sumit Singh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sumit4613.github.io/tags/djangocon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First DjangoCon: Lessons, Nerves, and Unforgettable Moments</title>
+      <link>https://sumit4613.github.io/posts/first-djangocon/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sumit4613.github.io/posts/first-djangocon/</guid>
+      <description>&lt;p&gt;&lt;em&gt;My thoughts on my first ever DjangoCon.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In April 2025, I attended DjangoCon Europe in Dublin. This was my first DjangoCon experience, both as an attendee and as&#xA;a speaker, and it was truly memorable.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-talk-on-scaling-django-admin&#34;&gt;My Talk on Scaling Django Admin&lt;/h2&gt;&#xA;&lt;p&gt;I had the opportunity to present a talk on how to scale Django Admin. As someone who has worked with Django for years, I&#xA;was excited to share my insights and experiences with the community. Preparing for this talk was both challenging and&#xA;rewarding, as it pushed me to organize my thoughts and distill my knowledge into a coherent presentation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
