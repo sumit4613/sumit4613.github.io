@@ -1,5 +1,5 @@
 <footer class="family-secondary support content">
-    {{ if and (eq .Section "post") (eq .Kind "page") }}
+    {{ if and (eq .Section "posts") (eq .Kind "page") }}
         {{ partial "giscus.html" . }}
     {{ end }}
     <p class="pb-2">

@@ -1,6 +1,6 @@
 ---
 title: "My First DjangoCon: Lessons, Nerves, and Unforgettable Moments"
-tags: [ "python", "django" ]
+tags: [ "django", "events", "djangocon" ]
 date: 2025-04-26
 toc: false
 draft: false
