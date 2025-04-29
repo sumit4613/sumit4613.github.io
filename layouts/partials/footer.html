@@ -1,5 +1,5 @@
 <footer class="family-secondary support content">
-    {{ if eq .Section "posts" }}
+    {{ if and (eq .Section "post") (eq .Kind "page") }}
         {{ partial "giscus.html" . }}
     {{ end }}
     <p class="pb-2">
@@ -12,7 +12,8 @@
         License.
         The <a href="https://github.com/sumit4613/sumit4613.github.io">source code</a> is available under <a
             href="https://github.com/sumit4613/sumit4613.github.io/blob/master/LICENSE">GPLv3</a>.
-        <i>If you see any issue or any typo please create an  <a href="https://github.com/sumit4613/sumit4613.github.io/issues">issue here.</a></i>
+        <i>If you see any issue or any typo please create an <a
+                href="https://github.com/sumit4613/sumit4613.github.io/issues">issue here.</a></i>
         {{ range .AlternativeOutputFormats -}}
         This page is also available via <a href="{{ .Permalink }}">{{ .Name }}</a>.
         {{ end -}}
