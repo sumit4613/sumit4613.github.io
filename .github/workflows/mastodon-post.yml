@@ -1,0 +1,28 @@
+name: Send a toot to Mastodon when you post a new blog post
+
+on: [ pull_request ]
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+      - run: |
+          echo $GITHUB_HEAD_REF
+          git checkout $GITHUB_HEAD_REF
+          RECENTLY_ADDED_FILES=$(git log -1 --stat --oneline --name-only | tr '\n' '|')
+          echo $RECENTLY_ADDED_FILES
+          echo "RECENTLY_ADDED_FILES=$RECENTLY_ADDED_FILES" >> $GITHUB_ENV
+          
+
+      - name: Post to Mastodon
+        uses: sumit4613/post-to-mastodon@v0.1
+        with:
+          message: "Hello, folks! I just posted a new blog post. Check it out!"
+          base_blog_url: "https://sumit4613.github.io/posts/"
+          access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          host: "fosstodon.org"
+          port: "443"
+          api: "api/v1"
