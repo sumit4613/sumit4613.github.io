@@ -32,7 +32,7 @@ I also maintain a few open source projects — find them on [GitHub](https://git
 ### Contact
 
 - **GitHub:** [@sumit4613](https://github.com/sumit4613)
-- **Twitter:** [@sumitsingh4613](https://twitter.com/sumitsingh4613)
+- **X:** [@theleadstackhq](https://x.com/theleadstackhq)
 - **LinkedIn:** [here](https://www.linkedin.com/in/sumit4613/)
 - **Email:** [sumit.singh4613@gmail.com](mailto:sumit.singh4613@gmail.com)
 
