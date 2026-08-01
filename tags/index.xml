@@ -1,166 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Sumit Singh</title>
-    <link>https://sumit4613.github.io/tags/</link>
-    <description>Recent content in Tags on Sumit Singh</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sumit4613.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Django</title>
-      <link>https://sumit4613.github.io/tags/django/</link>
-      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/django/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Djangocon</title>
-      <link>https://sumit4613.github.io/tags/djangocon/</link>
-      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/djangocon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Events</title>
-      <link>https://sumit4613.github.io/tags/events/</link>
-      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/events/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://sumit4613.github.io/tags/python/</link>
-      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Corrupted</title>
-      <link>https://sumit4613.github.io/tags/corrupted/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/corrupted/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Usb-Drive</title>
-      <link>https://sumit4613.github.io/tags/usb-drive/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/usb-drive/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows</title>
-      <link>https://sumit4613.github.io/tags/windows/</link>
-      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oops</title>
-      <link>https://sumit4613.github.io/tags/oops/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/oops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ec2</title>
-      <link>https://sumit4613.github.io/tags/ec2/</link>
-      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/ec2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nginx</title>
-      <link>https://sumit4613.github.io/tags/nginx/</link>
-      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/nginx/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Postgres</title>
-      <link>https://sumit4613.github.io/tags/postgres/</link>
-      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/postgres/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aws</title>
-      <link>https://sumit4613.github.io/tags/aws/</link>
-      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/aws/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Digitalocean</title>
-      <link>https://sumit4613.github.io/tags/digitalocean/</link>
-      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/digitalocean/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Server</title>
-      <link>https://sumit4613.github.io/tags/server/</link>
-      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubuntu</title>
-      <link>https://sumit4613.github.io/tags/ubuntu/</link>
-      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code</title>
-      <link>https://sumit4613.github.io/tags/code/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>College</title>
-      <link>https://sumit4613.github.io/tags/college/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/college/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>https://sumit4613.github.io/tags/community/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/community/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://sumit4613.github.io/tags/programming/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical</title>
-      <link>https://sumit4613.github.io/tags/technical/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web</title>
-      <link>https://sumit4613.github.io/tags/web/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Work</title>
-      <link>https://sumit4613.github.io/tags/work/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumit4613.github.io/tags/work/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on Sumit Singh</title>
+		<link>https://sumit4613.github.io/tags/</link>
+		<description>Recent content in Tags on Sumit Singh</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://sumit4613.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Django</title>
+				<link>https://sumit4613.github.io/tags/django/</link>
+				<pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/django/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Djangocon</title>
+				<link>https://sumit4613.github.io/tags/djangocon/</link>
+				<pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/djangocon/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Events</title>
+				<link>https://sumit4613.github.io/tags/events/</link>
+				<pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/events/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Python</title>
+				<link>https://sumit4613.github.io/tags/python/</link>
+				<pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/python/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Corrupted</title>
+				<link>https://sumit4613.github.io/tags/corrupted/</link>
+				<pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/corrupted/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Usb-Drive</title>
+				<link>https://sumit4613.github.io/tags/usb-drive/</link>
+				<pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/usb-drive/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Windows</title>
+				<link>https://sumit4613.github.io/tags/windows/</link>
+				<pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/windows/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Oops</title>
+				<link>https://sumit4613.github.io/tags/oops/</link>
+				<pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/oops/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ec2</title>
+				<link>https://sumit4613.github.io/tags/ec2/</link>
+				<pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/ec2/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Nginx</title>
+				<link>https://sumit4613.github.io/tags/nginx/</link>
+				<pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/nginx/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Postgres</title>
+				<link>https://sumit4613.github.io/tags/postgres/</link>
+				<pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/postgres/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Aws</title>
+				<link>https://sumit4613.github.io/tags/aws/</link>
+				<pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/aws/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Digitalocean</title>
+				<link>https://sumit4613.github.io/tags/digitalocean/</link>
+				<pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/digitalocean/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Server</title>
+				<link>https://sumit4613.github.io/tags/server/</link>
+				<pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/server/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ubuntu</title>
+				<link>https://sumit4613.github.io/tags/ubuntu/</link>
+				<pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/ubuntu/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Code</title>
+				<link>https://sumit4613.github.io/tags/code/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/code/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>College</title>
+				<link>https://sumit4613.github.io/tags/college/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/college/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Community</title>
+				<link>https://sumit4613.github.io/tags/community/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/community/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming</title>
+				<link>https://sumit4613.github.io/tags/programming/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Technical</title>
+				<link>https://sumit4613.github.io/tags/technical/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/technical/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Web</title>
+				<link>https://sumit4613.github.io/tags/web/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/web/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Work</title>
+				<link>https://sumit4613.github.io/tags/work/</link>
+				<pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+				<guid>https://sumit4613.github.io/tags/work/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
