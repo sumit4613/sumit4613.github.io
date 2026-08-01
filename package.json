@@ -1,4 +1,7 @@
 {
+  "browserslist": [
+    "defaults"
+  ],
   "dependencies": {
     "alpinejs": "^3.10.3"
   },
