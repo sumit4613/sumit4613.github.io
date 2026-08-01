@@ -1,6 +1,8 @@
 module.exports = {
     plugins: [
-        require("postcss-preset-env")(),
+        require("postcss-preset-env")({
+            browsers: "defaults"
+        }),
         require("postcss-import")(),
         require("autoprefixer")(),
         ...process.env.HUGO_ENV === 'production'
